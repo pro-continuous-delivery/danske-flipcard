@@ -1,0 +1,5 @@
+source/
+*.pdf
+dansk-verber-progress-*.json
+venv/
+__pycache__/

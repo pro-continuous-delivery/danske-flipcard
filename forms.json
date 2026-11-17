@@ -1,0 +1,1372 @@
+[
+ {
+  "form": "afbrudt",
+  "verb": "at afbryde",
+  "english": "interrupt"
+ },
+ {
+  "form": "afbrød",
+  "verb": "at afbryde",
+  "english": "interrupt"
+ },
+ {
+  "form": "afgav",
+  "verb": "at afgive",
+  "english": "submit / cast (e.g. a vote)"
+ },
+ {
+  "form": "afgivet",
+  "verb": "at afgive",
+  "english": "submit / cast (e.g. a vote)"
+ },
+ {
+  "form": "afgjorde",
+  "verb": "at afgøre",
+  "english": "decide"
+ },
+ {
+  "form": "afgjort",
+  "verb": "at afgøre",
+  "english": "decide"
+ },
+ {
+  "form": "anbragt",
+  "verb": "at anbringe",
+  "english": "place"
+ },
+ {
+  "form": "anbragte",
+  "verb": "at anbringe",
+  "english": "place"
+ },
+ {
+  "form": "angav",
+  "verb": "at angive",
+  "english": "indicate"
+ },
+ {
+  "form": "angivet",
+  "verb": "at angive",
+  "english": "indicate"
+ },
+ {
+  "form": "anholdt",
+  "verb": "at anholde",
+  "english": "arrest"
+ },
+ {
+  "form": "ankom",
+  "verb": "at ankomme",
+  "english": "arrive"
+ },
+ {
+  "form": "ankommet",
+  "verb": "at ankomme",
+  "english": "arrive"
+ },
+ {
+  "form": "ansat",
+  "verb": "at ansætte",
+  "english": "employ"
+ },
+ {
+  "form": "ansatte",
+  "verb": "at ansætte",
+  "english": "employ"
+ },
+ {
+  "form": "bad",
+  "verb": "at bede",
+  "english": "pray"
+ },
+ {
+  "form": "bandt",
+  "verb": "at binde",
+  "english": "bind"
+ },
+ {
+  "form": "bar",
+  "verb": "at bære",
+  "english": "carry"
+ },
+ {
+  "form": "bed",
+  "verb": "at bide",
+  "english": "bite"
+ },
+ {
+  "form": "bedt",
+  "verb": "at bede",
+  "english": "pray"
+ },
+ {
+  "form": "befandt",
+  "verb": "at befinde",
+  "english": "be located (befinde sig)"
+ },
+ {
+  "form": "befundet",
+  "verb": "at befinde",
+  "english": "be located (befinde sig)"
+ },
+ {
+  "form": "begik",
+  "verb": "at begå",
+  "english": "commit"
+ },
+ {
+  "form": "begået",
+  "verb": "at begå",
+  "english": "commit"
+ },
+ {
+  "form": "beholdt",
+  "verb": "at beholde",
+  "english": "keep"
+ },
+ {
+  "form": "besat",
+  "verb": "at besætte",
+  "english": "occupy"
+ },
+ {
+  "form": "besatte",
+  "verb": "at besætte",
+  "english": "occupy"
+ },
+ {
+  "form": "beskrev",
+  "verb": "at beskrive",
+  "english": "describe"
+ },
+ {
+  "form": "beskrevet",
+  "verb": "at beskrive",
+  "english": "describe"
+ },
+ {
+  "form": "bestod",
+  "verb": "at bestå",
+  "english": "pass"
+ },
+ {
+  "form": "bestået",
+  "verb": "at bestå",
+  "english": "pass"
+ },
+ {
+  "form": "betydet",
+  "verb": "at betyde",
+  "english": "mean"
+ },
+ {
+  "form": "betød",
+  "verb": "at betyde",
+  "english": "mean"
+ },
+ {
+  "form": "bidt",
+  "verb": "at bide",
+  "english": "bite"
+ },
+ {
+  "form": "blev",
+  "verb": "at blive",
+  "english": "become"
+ },
+ {
+  "form": "blevet",
+  "verb": "at blive",
+  "english": "become"
+ },
+ {
+  "form": "boede",
+  "verb": "at bo",
+  "english": "live"
+ },
+ {
+  "form": "boet",
+  "verb": "at bo",
+  "english": "live"
+ },
+ {
+  "form": "brudt",
+  "verb": "at bryde",
+  "english": "break"
+ },
+ {
+  "form": "brød",
+  "verb": "at bryde",
+  "english": "break"
+ },
+ {
+  "form": "bundet",
+  "verb": "at binde",
+  "english": "bind"
+ },
+ {
+  "form": "båret",
+  "verb": "at bære",
+  "english": "carry"
+ },
+ {
+  "form": "deltaget",
+  "verb": "at deltage",
+  "english": "participate"
+ },
+ {
+  "form": "deltog",
+  "verb": "at deltage",
+  "english": "participate"
+ },
+ {
+  "form": "drak",
+  "verb": "at drikke",
+  "english": "drink"
+ },
+ {
+  "form": "drukket",
+  "verb": "at drikke",
+  "english": "drink"
+ },
+ {
+  "form": "død",
+  "verb": "at dø",
+  "english": "die"
+ },
+ {
+  "form": "døde",
+  "verb": "at dø",
+  "english": "die"
+ },
+ {
+  "form": "efterladt",
+  "verb": "at efterlade",
+  "english": "leave"
+ },
+ {
+  "form": "efterlod",
+  "verb": "at efterlade",
+  "english": "leave"
+ },
+ {
+  "form": "faldet",
+  "verb": "at falde",
+  "english": "fall"
+ },
+ {
+  "form": "faldt",
+  "verb": "at falde",
+  "english": "fall"
+ },
+ {
+  "form": "fandt",
+  "verb": "at finde",
+  "english": "find"
+ },
+ {
+  "form": "fastholdt",
+  "verb": "at fastholde",
+  "english": "maintain / hold onto"
+ },
+ {
+  "form": "fastsat",
+  "verb": "at fastsætte",
+  "english": "establish"
+ },
+ {
+  "form": "fastsatte",
+  "verb": "at fastsætte",
+  "english": "establish"
+ },
+ {
+  "form": "fastslog",
+  "verb": "at fastslå",
+  "english": "establish"
+ },
+ {
+  "form": "fastslået",
+  "verb": "at fastslå",
+  "english": "establish"
+ },
+ {
+  "form": "fik",
+  "verb": "at få",
+  "english": "get"
+ },
+ {
+  "form": "fløj",
+  "verb": "at flyve",
+  "english": "fly"
+ },
+ {
+  "form": "fløjet",
+  "verb": "at flyve",
+  "english": "fly"
+ },
+ {
+  "form": "forbandt",
+  "verb": "at forbinde",
+  "english": "connect"
+ },
+ {
+  "form": "forblev",
+  "verb": "at forblive",
+  "english": "remain"
+ },
+ {
+  "form": "forblevet",
+  "verb": "at forblive",
+  "english": "remain"
+ },
+ {
+  "form": "forbundet",
+  "verb": "at forbinde",
+  "english": "connect"
+ },
+ {
+  "form": "foregik",
+  "verb": "at foregå",
+  "english": "occur"
+ },
+ {
+  "form": "foregået",
+  "verb": "at foregå",
+  "english": "occur"
+ },
+ {
+  "form": "forekom",
+  "verb": "at forekomme",
+  "english": "occur"
+ },
+ {
+  "form": "forekommet",
+  "verb": "at forekomme",
+  "english": "occur"
+ },
+ {
+  "form": "foreslog",
+  "verb": "at foreslå",
+  "english": "suggest"
+ },
+ {
+  "form": "foreslået",
+  "verb": "at foreslå",
+  "english": "suggest"
+ },
+ {
+  "form": "foretaget",
+  "verb": "at foretage sig",
+  "english": "undertake"
+ },
+ {
+  "form": "foretog",
+  "verb": "at foretage sig",
+  "english": "undertake"
+ },
+ {
+  "form": "foretrak",
+  "verb": "at foretrække",
+  "english": "prefer"
+ },
+ {
+  "form": "foretrukket",
+  "verb": "at foretrække",
+  "english": "prefer"
+ },
+ {
+  "form": "forholdt",
+  "verb": "at forholde sig",
+  "english": "relate to / respond to"
+ },
+ {
+  "form": "forladt",
+  "verb": "at forlade",
+  "english": "leave"
+ },
+ {
+  "form": "forlod",
+  "verb": "at forlade",
+  "english": "leave"
+ },
+ {
+  "form": "forstod",
+  "verb": "at forstå",
+  "english": "understand"
+ },
+ {
+  "form": "forstået",
+  "verb": "at forstå",
+  "english": "understand"
+ },
+ {
+  "form": "forsvandt",
+  "verb": "at forsvinde",
+  "english": "disappear"
+ },
+ {
+  "form": "forsvundet",
+  "verb": "at forsvinde",
+  "english": "disappear"
+ },
+ {
+  "form": "fortalt",
+  "verb": "at fortælle",
+  "english": "tell"
+ },
+ {
+  "form": "fortalte",
+  "verb": "at fortælle",
+  "english": "tell"
+ },
+ {
+  "form": "fortsat",
+  "verb": "at fortsætte",
+  "english": "continue"
+ },
+ {
+  "form": "fortsatte",
+  "verb": "at fortsætte",
+  "english": "continue"
+ },
+ {
+  "form": "fremlagde",
+  "verb": "at fremlægge",
+  "english": "present"
+ },
+ {
+  "form": "fremlagt",
+  "verb": "at fremlægge",
+  "english": "present"
+ },
+ {
+  "form": "fremsat",
+  "verb": "at fremsætte",
+  "english": "propose / put forward"
+ },
+ {
+  "form": "fremsatte",
+  "verb": "at fremsætte",
+  "english": "propose / put forward"
+ },
+ {
+  "form": "fulgt",
+  "verb": "at følge",
+  "english": "follow"
+ },
+ {
+  "form": "fulgte",
+  "verb": "at følge",
+  "english": "follow"
+ },
+ {
+  "form": "fundet",
+  "verb": "at finde",
+  "english": "find"
+ },
+ {
+  "form": "fået",
+  "verb": "at få",
+  "english": "get"
+ },
+ {
+  "form": "gav",
+  "verb": "at give",
+  "english": "give"
+ },
+ {
+  "form": "gennemgik",
+  "verb": "at gennemgå",
+  "english": "go through"
+ },
+ {
+  "form": "gennemgået",
+  "verb": "at gennemgå",
+  "english": "go through"
+ },
+ {
+  "form": "gentaget",
+  "verb": "at gentage",
+  "english": "repeat"
+ },
+ {
+  "form": "gentog",
+  "verb": "at gentage",
+  "english": "repeat"
+ },
+ {
+  "form": "gik",
+  "verb": "at gå",
+  "english": "go"
+ },
+ {
+  "form": "givet",
+  "verb": "at give",
+  "english": "give"
+ },
+ {
+  "form": "gjorde",
+  "verb": "at gøre",
+  "english": "do"
+ },
+ {
+  "form": "gjort",
+  "verb": "at gøre",
+  "english": "do"
+ },
+ {
+  "form": "gled",
+  "verb": "at glide",
+  "english": "slide"
+ },
+ {
+  "form": "gledet",
+  "verb": "at glide",
+  "english": "slide"
+ },
+ {
+  "form": "greb",
+  "verb": "at gribe",
+  "english": "grab"
+ },
+ {
+  "form": "grebet",
+  "verb": "at gribe",
+  "english": "grab"
+ },
+ {
+  "form": "græd",
+  "verb": "at græde",
+  "english": "cry"
+ },
+ {
+  "form": "grædt",
+  "verb": "at græde",
+  "english": "cry"
+ },
+ {
+  "form": "gået",
+  "verb": "at gå",
+  "english": "go"
+ },
+ {
+  "form": "haft",
+  "verb": "at have",
+  "english": "have"
+ },
+ {
+  "form": "hang",
+  "verb": "at hænge",
+  "english": "hang"
+ },
+ {
+  "form": "havde",
+  "verb": "at have",
+  "english": "have"
+ },
+ {
+  "form": "hed",
+  "verb": "at hedde",
+  "english": "be called / be named"
+ },
+ {
+  "form": "heddet",
+  "verb": "at hedde",
+  "english": "be called / be named"
+ },
+ {
+  "form": "hjalp",
+  "verb": "at hjælpe",
+  "english": "help"
+ },
+ {
+  "form": "hjulpet",
+  "verb": "at hjælpe",
+  "english": "help"
+ },
+ {
+  "form": "holdt",
+  "verb": "at holde",
+  "english": "hold"
+ },
+ {
+  "form": "hængt",
+  "verb": "at hænge",
+  "english": "hang"
+ },
+ {
+  "form": "indebar",
+  "verb": "at indebære",
+  "english": "imply"
+ },
+ {
+  "form": "indebåret",
+  "verb": "at indebære",
+  "english": "imply"
+ },
+ {
+  "form": "indeholdt",
+  "verb": "at indeholde",
+  "english": "contain"
+ },
+ {
+  "form": "indtaget",
+  "verb": "at indtage",
+  "english": "take"
+ },
+ {
+  "form": "indtog",
+  "verb": "at indtage",
+  "english": "take"
+ },
+ {
+  "form": "kom",
+  "verb": "at komme",
+  "english": "come"
+ },
+ {
+  "form": "kommet",
+  "verb": "at komme",
+  "english": "come"
+ },
+ {
+  "form": "kunnet",
+  "verb": "at kunne",
+  "english": "could"
+ },
+ {
+  "form": "ladet",
+  "verb": "at lade",
+  "english": "let"
+ },
+ {
+  "form": "lagde",
+  "verb": "at lægge",
+  "english": "lay"
+ },
+ {
+  "form": "lagt",
+  "verb": "at lægge",
+  "english": "lay"
+ },
+ {
+  "form": "led",
+  "verb": "at lide",
+  "english": "suffer"
+ },
+ {
+  "form": "let",
+  "verb": "at le",
+  "english": "laugh"
+ },
+ {
+  "form": "lidt",
+  "verb": "at lide",
+  "english": "suffer"
+ },
+ {
+  "form": "ligget",
+  "verb": "at ligge",
+  "english": "lie"
+ },
+ {
+  "form": "lo",
+  "verb": "at le",
+  "english": "laugh"
+ },
+ {
+  "form": "lod",
+  "verb": "at lade",
+  "english": "let"
+ },
+ {
+  "form": "lydt",
+  "verb": "at lyde",
+  "english": "sound"
+ },
+ {
+  "form": "lykkedes",
+  "verb": "at lykkes",
+  "english": "succeed"
+ },
+ {
+  "form": "løb",
+  "verb": "at løbe",
+  "english": "run"
+ },
+ {
+  "form": "løbet",
+  "verb": "at løbe",
+  "english": "run"
+ },
+ {
+  "form": "lød",
+  "verb": "at lyde",
+  "english": "sound"
+ },
+ {
+  "form": "lå",
+  "verb": "at ligge",
+  "english": "lie"
+ },
+ {
+  "form": "modtaget",
+  "verb": "at modtage",
+  "english": "receive"
+ },
+ {
+  "form": "modtog",
+  "verb": "at modtage",
+  "english": "receive"
+ },
+ {
+  "form": "måttet",
+  "verb": "at måtte",
+  "english": "had to"
+ },
+ {
+  "form": "nedlagde",
+  "verb": "at nedlægge",
+  "english": "put down"
+ },
+ {
+  "form": "nedlagt",
+  "verb": "at nedlægge",
+  "english": "put down"
+ },
+ {
+  "form": "nedsat",
+  "verb": "at nedsætte",
+  "english": "reduce"
+ },
+ {
+  "form": "nedsatte",
+  "verb": "at nedsætte",
+  "english": "reduce"
+ },
+ {
+  "form": "nydt",
+  "verb": "at nyde",
+  "english": "enjoy"
+ },
+ {
+  "form": "nød",
+  "verb": "at nyde",
+  "english": "enjoy"
+ },
+ {
+  "form": "nåede",
+  "verb": "at nå",
+  "english": "reach"
+ },
+ {
+  "form": "nået",
+  "verb": "at nå",
+  "english": "reach"
+ },
+ {
+  "form": "offentliggjorde",
+  "verb": "at offentliggøre",
+  "english": "publish"
+ },
+ {
+  "form": "offentliggjort",
+  "verb": "at offentliggøre",
+  "english": "publish"
+ },
+ {
+  "form": "omgav",
+  "verb": "at omgive",
+  "english": "surround"
+ },
+ {
+  "form": "omgivet",
+  "verb": "at omgive",
+  "english": "surround"
+ },
+ {
+  "form": "opfandt",
+  "verb": "at opfinde",
+  "english": "invent"
+ },
+ {
+  "form": "opfundet",
+  "verb": "at opfinde",
+  "english": "invent"
+ },
+ {
+  "form": "opgav",
+  "verb": "at opgive",
+  "english": "abandon"
+ },
+ {
+  "form": "opgivet",
+  "verb": "at opgive",
+  "english": "abandon"
+ },
+ {
+  "form": "opnåede",
+  "verb": "at opnå",
+  "english": "achieve"
+ },
+ {
+  "form": "opnået",
+  "verb": "at opnå",
+  "english": "achieve"
+ },
+ {
+  "form": "opstod",
+  "verb": "at opstå",
+  "english": "arise"
+ },
+ {
+  "form": "opstået",
+  "verb": "at opstå",
+  "english": "arise"
+ },
+ {
+  "form": "optaget",
+  "verb": "at optage",
+  "english": "take up"
+ },
+ {
+  "form": "optog",
+  "verb": "at optage",
+  "english": "take up"
+ },
+ {
+  "form": "overholdt",
+  "verb": "at overholde",
+  "english": "obey"
+ },
+ {
+  "form": "overladt",
+  "verb": "at overlade",
+  "english": "entrust / leave to"
+ },
+ {
+  "form": "overlod",
+  "verb": "at overlade",
+  "english": "entrust / leave to"
+ },
+ {
+  "form": "overtaget",
+  "verb": "at overtage",
+  "english": "take over"
+ },
+ {
+  "form": "overtog",
+  "verb": "at overtage",
+  "english": "take over"
+ },
+ {
+  "form": "planlagde",
+  "verb": "at planlægge",
+  "english": "plan"
+ },
+ {
+  "form": "planlagt",
+  "verb": "at planlægge",
+  "english": "plan"
+ },
+ {
+  "form": "rakt",
+  "verb": "at række",
+  "english": "hand / pass (something)"
+ },
+ {
+  "form": "rakte",
+  "verb": "at række",
+  "english": "hand / pass (something)"
+ },
+ {
+  "form": "red",
+  "verb": "at ride",
+  "english": "ride"
+ },
+ {
+  "form": "redet",
+  "verb": "at ride",
+  "english": "ride"
+ },
+ {
+  "form": "rev",
+  "verb": "at rive",
+  "english": "tear"
+ },
+ {
+  "form": "revet",
+  "verb": "at rive",
+  "english": "tear"
+ },
+ {
+  "form": "røg",
+  "verb": "at ryge",
+  "english": "smoke"
+ },
+ {
+  "form": "røget",
+  "verb": "at ryge",
+  "english": "smoke"
+ },
+ {
+  "form": "sad",
+  "verb": "at sidde",
+  "english": "sit"
+ },
+ {
+  "form": "sagde",
+  "verb": "at sige",
+  "english": "say"
+ },
+ {
+  "form": "sagt",
+  "verb": "at sige",
+  "english": "say"
+ },
+ {
+  "form": "sang",
+  "verb": "at synge",
+  "english": "sing"
+ },
+ {
+  "form": "sank",
+  "verb": "at synke",
+  "english": "sink"
+ },
+ {
+  "form": "sat",
+  "verb": "at sætte",
+  "english": "put"
+ },
+ {
+  "form": "satte",
+  "verb": "at sætte",
+  "english": "put"
+ },
+ {
+  "form": "set",
+  "verb": "at se",
+  "english": "see"
+ },
+ {
+  "form": "siddet",
+  "verb": "at sidde",
+  "english": "sit"
+ },
+ {
+  "form": "skar",
+  "verb": "at skære",
+  "english": "cut"
+ },
+ {
+  "form": "sket",
+  "verb": "at ske",
+  "english": "happen"
+ },
+ {
+  "form": "skete",
+  "verb": "at ske",
+  "english": "happen"
+ },
+ {
+  "form": "skreg",
+  "verb": "at skrige",
+  "english": "scream"
+ },
+ {
+  "form": "skreget",
+  "verb": "at skrige",
+  "english": "scream"
+ },
+ {
+  "form": "skrev",
+  "verb": "at skrive",
+  "english": "write"
+ },
+ {
+  "form": "skrevet",
+  "verb": "at skrive",
+  "english": "write"
+ },
+ {
+  "form": "skudt",
+  "verb": "at skyde",
+  "english": "shoot"
+ },
+ {
+  "form": "skullet",
+  "verb": "at skulle",
+  "english": "should"
+ },
+ {
+  "form": "skød",
+  "verb": "at skyde",
+  "english": "shoot"
+ },
+ {
+  "form": "skåret",
+  "verb": "at skære",
+  "english": "cut"
+ },
+ {
+  "form": "slap",
+  "verb": "at slippe",
+  "english": "drop"
+ },
+ {
+  "form": "slog",
+  "verb": "at slå",
+  "english": "hit"
+ },
+ {
+  "form": "sloges",
+  "verb": "at slås",
+  "english": "fight"
+ },
+ {
+  "form": "sluppet",
+  "verb": "at slippe",
+  "english": "drop"
+ },
+ {
+  "form": "slåedes",
+  "verb": "at slås",
+  "english": "fight"
+ },
+ {
+  "form": "slået",
+  "verb": "at slå",
+  "english": "hit"
+ },
+ {
+  "form": "smed",
+  "verb": "at smide",
+  "english": "throw"
+ },
+ {
+  "form": "smidt",
+  "verb": "at smide",
+  "english": "throw"
+ },
+ {
+  "form": "solgt",
+  "verb": "at sælge",
+  "english": "sell"
+ },
+ {
+  "form": "solgte",
+  "verb": "at sælge",
+  "english": "sell"
+ },
+ {
+  "form": "sov",
+  "verb": "at sove",
+  "english": "sleep"
+ },
+ {
+  "form": "sovet",
+  "verb": "at sove",
+  "english": "sleep"
+ },
+ {
+  "form": "sprang",
+  "verb": "at springe",
+  "english": "jump"
+ },
+ {
+  "form": "sprunget",
+  "verb": "at springe",
+  "english": "jump"
+ },
+ {
+  "form": "spurgt",
+  "verb": "at spørge",
+  "english": "ask"
+ },
+ {
+  "form": "spurgte",
+  "verb": "at spørge",
+  "english": "ask"
+ },
+ {
+  "form": "stak",
+  "verb": "at stikke af",
+  "english": "run away / flee"
+ },
+ {
+  "form": "steg",
+  "verb": "at stige",
+  "english": "rise"
+ },
+ {
+  "form": "steget",
+  "verb": "at stige",
+  "english": "rise"
+ },
+ {
+  "form": "stjal",
+  "verb": "at stjæle",
+  "english": "steal"
+ },
+ {
+  "form": "stjålet",
+  "verb": "at stjæle",
+  "english": "steal"
+ },
+ {
+  "form": "stod",
+  "verb": "at stå op",
+  "english": "stand up / get up"
+ },
+ {
+  "form": "strakt",
+  "verb": "at strække",
+  "english": "stretch"
+ },
+ {
+  "form": "strakte",
+  "verb": "at strække",
+  "english": "stretch"
+ },
+ {
+  "form": "stukket",
+  "verb": "at stikke af",
+  "english": "run away / flee"
+ },
+ {
+  "form": "stået",
+  "verb": "at stå op",
+  "english": "stand up / get up"
+ },
+ {
+  "form": "sunget",
+  "verb": "at synge",
+  "english": "sing"
+ },
+ {
+  "form": "sunket",
+  "verb": "at synke",
+  "english": "sink"
+ },
+ {
+  "form": "svang",
+  "verb": "at svinge",
+  "english": "swing"
+ },
+ {
+  "form": "svunget",
+  "verb": "at svinge",
+  "english": "swing"
+ },
+ {
+  "form": "syede",
+  "verb": "at sy",
+  "english": "sew"
+ },
+ {
+  "form": "syet",
+  "verb": "at sy",
+  "english": "sew"
+ },
+ {
+  "form": "syntes",
+  "verb": "at synes",
+  "english": "seem"
+ },
+ {
+  "form": "så",
+  "verb": "at se",
+  "english": "see"
+ },
+ {
+  "form": "taget",
+  "verb": "at tage",
+  "english": "take"
+ },
+ {
+  "form": "taget",
+  "verb": "at tage hjem",
+  "english": "take home"
+ },
+ {
+  "form": "talt",
+  "verb": "at tælle",
+  "english": "count"
+ },
+ {
+  "form": "talte",
+  "verb": "at tælle",
+  "english": "count"
+ },
+ {
+  "form": "tilbragt",
+  "verb": "at tilbringe",
+  "english": "spend"
+ },
+ {
+  "form": "tilbragte",
+  "verb": "at tilbringe",
+  "english": "spend"
+ },
+ {
+  "form": "tilbudt",
+  "verb": "at tilbyde",
+  "english": "offer"
+ },
+ {
+  "form": "tilbød",
+  "verb": "at tilbyde",
+  "english": "offer"
+ },
+ {
+  "form": "tilladt",
+  "verb": "at tillade",
+  "english": "allow"
+ },
+ {
+  "form": "tillod",
+  "verb": "at tillade",
+  "english": "allow"
+ },
+ {
+  "form": "tog",
+  "verb": "at tage",
+  "english": "take"
+ },
+ {
+  "form": "tog",
+  "verb": "at tage hjem",
+  "english": "take home"
+ },
+ {
+  "form": "traf",
+  "verb": "at træffe",
+  "english": "meet / encounter"
+ },
+ {
+  "form": "trak",
+  "verb": "at trække",
+  "english": "pull"
+ },
+ {
+  "form": "troede",
+  "verb": "at tro",
+  "english": "believe"
+ },
+ {
+  "form": "troet",
+  "verb": "at tro",
+  "english": "believe"
+ },
+ {
+  "form": "truffet",
+  "verb": "at træffe",
+  "english": "meet / encounter"
+ },
+ {
+  "form": "trukket",
+  "verb": "at trække",
+  "english": "pull"
+ },
+ {
+  "form": "tvang",
+  "verb": "at tvinge",
+  "english": "force"
+ },
+ {
+  "form": "tvunget",
+  "verb": "at tvinge",
+  "english": "force"
+ },
+ {
+  "form": "udgav",
+  "verb": "at udgive",
+  "english": "publish"
+ },
+ {
+  "form": "udgivet",
+  "verb": "at udgive",
+  "english": "publish"
+ },
+ {
+  "form": "udgjorde",
+  "verb": "at udgøre",
+  "english": "constitute"
+ },
+ {
+  "form": "udgjort",
+  "verb": "at udgøre",
+  "english": "constitute"
+ },
+ {
+  "form": "udsat",
+  "verb": "at udsætte",
+  "english": "postpone"
+ },
+ {
+  "form": "udsatte",
+  "verb": "at udsætte",
+  "english": "postpone"
+ },
+ {
+  "form": "underholdt",
+  "verb": "at underholde",
+  "english": "entertain"
+ },
+ {
+  "form": "undgik",
+  "verb": "at undgå",
+  "english": "avoid"
+ },
+ {
+  "form": "undgået",
+  "verb": "at undgå",
+  "english": "avoid"
+ },
+ {
+  "form": "valgt",
+  "verb": "at vælge",
+  "english": "choose"
+ },
+ {
+  "form": "valgte",
+  "verb": "at vælge",
+  "english": "choose"
+ },
+ {
+  "form": "vandt",
+  "verb": "at vinde",
+  "english": "win"
+ },
+ {
+  "form": "vidst",
+  "verb": "at vide",
+  "english": "know"
+ },
+ {
+  "form": "vidste",
+  "verb": "at vide",
+  "english": "know"
+ },
+ {
+  "form": "villet",
+  "verb": "at ville",
+  "english": "would"
+ },
+ {
+  "form": "vundet",
+  "verb": "at vinde",
+  "english": "win"
+ },
+ {
+  "form": "ødelagde",
+  "verb": "at ødelægge",
+  "english": "destroy"
+ },
+ {
+  "form": "ødelagt",
+  "verb": "at ødelægge",
+  "english": "destroy"
+ }
+]

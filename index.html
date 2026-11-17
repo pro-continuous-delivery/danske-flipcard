@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Danske verber</title>
+  <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
+  <!-- iOS standalone ("Add to Home Screen") mode -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Verber">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- STUDY -->
+    <section id="view-study" class="view" aria-label="Study">
+      <div class="topline">
+        <span id="left" class="muted"></span>
+        <span id="modechip" class="chip"></span>
+      </div>
+      <div class="stage" id="stage">
+        <div class="swipe" id="swipe">
+          <div class="card" id="card" role="button" tabindex="0" aria-label="Flip card">
+            <div class="face front" id="front"></div>
+            <div class="face back" id="back"></div>
+          </div>
+          <div class="swipe-tint know" aria-hidden="true">Knew it</div>
+          <div class="swipe-tint miss" aria-hidden="true">Didn't know</div>
+        </div>
+        <div id="empty" class="empty" hidden></div>
+      </div>
+      <div class="actions" id="actions">
+        <button class="btn miss" id="btn-miss" disabled>Didn't know it</button>
+        <button class="btn know" id="btn-know" disabled>Knew it</button>
+      </div>
+      <p class="hint muted" id="hint">Tap the card to flip · after flipping, swipe right = knew it, left = didn't</p>
+    </section>
+
+    <!-- PROGRESS -->
+    <section id="view-progress" class="view" hidden aria-label="Progress"></section>
+
+    <!-- LOOKUP (irregular form index) -->
+    <section id="view-lookup" class="view" hidden aria-label="Lookup">
+      <h1>Look up a form</h1>
+      <p class="muted">Search an irregular form (e.g. <em>fandt</em>), a verb, or an English word.</p>
+      <input id="q" type="search" placeholder="fandt, gå, drive…" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <div id="results"></div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section id="view-settings" class="view" hidden aria-label="Settings">
+      <h1>Settings</h1>
+      <div class="group">
+        <label class="row"><span>Meaning group</span><select id="f-group"></select></label>
+        <label class="row"><span>Conjugation</span>
+          <select id="f-conj">
+            <option value="all">All</option>
+            <option value="1">Group 1 (-ede / -et)</option>
+            <option value="2">Group 2 (-te / -t)</option>
+            <option value="3">Group 3 (irregular)</option>
+          </select></label>
+        <label class="row"><span>Base verbs only <small class="muted">(no prefixed verbs)</small></span><input type="checkbox" id="f-base" class="switch"></label>
+        <label class="row"><span>Reverse (English → Danish)</span><input type="checkbox" id="f-reverse" class="switch"></label>
+        <label class="row"><span>Shuffle</span><input type="checkbox" id="f-shuffle" class="switch"></label>
+      </div>
+
+      <h2>Your data</h2>
+      <p class="muted small">Progress lives only on this phone. iOS can erase it after long inactivity, so export a backup now and then (e.g. save it to Files / Google Drive).</p>
+      <div class="group">
+        <button class="btn plain" id="btn-export">Export progress</button>
+        <button class="btn plain" id="btn-import">Import progress</button>
+        <input type="file" id="file-import" accept="application/json,.json" hidden>
+        <button class="btn plain danger" id="btn-reset">Reset all progress</button>
+      </div>
+
+      <h2>About</h2>
+      <p class="muted small" id="about"></p>
+    </section>
+  </main>
+
+  <nav class="tabs" aria-label="Main">
+    <button data-view="study" class="active" aria-current="page"><span class="ico">🃏</span>Study</button>
+    <button data-view="progress"><span class="ico">📊</span>Progress</button>
+    <button data-view="lookup"><span class="ico">🔍</span>Lookup</button>
+    <button data-view="settings"><span class="ico">⚙️</span>Settings</button>
+  </nav>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="srs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

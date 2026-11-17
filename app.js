@@ -1,4 +1,4 @@
-/* UI + storage + speech. Spaced-repetition rules live in srs.js. */
+/* UI + storage. Spaced-repetition rules live in srs.js. */
 (function () {
   'use strict';
   var KEY = 'dansk-verber-v1';
@@ -37,48 +37,8 @@
   }
   var today = function () { return SRS.dayNum(); };
 
-  /* ---------- speech (Danish) ---------- */
   var TYPE_LABEL = { verb: 'Verb', adjective: 'Adjective', adverb: 'Adverb' };
-  // Text for the voice: drop "(en)", arrows and slashes that would be read out loud.
-  function speakText(c) {
-    return c.danish.replace(/\([^)]*\)/g, '').replace(/\s*→\s*/g, ', ').replace(/\s*\/\s*/g, ', ').replace(/\s+/g, ' ').trim();
-  }
-  var daVoice = null, warnedNoVoice = false;
-  var speechOK = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
-  function pickVoice() {
-    if (!speechOK) return;
-    var vs = speechSynthesis.getVoices() || [];
-    daVoice = vs.filter(function (v) { return v.lang.replace('_', '-').toLowerCase() === 'da-dk'; })[0] ||
-              vs.filter(function (v) { return v.lang.toLowerCase().indexOf('da') === 0; })[0] || null;
-    updateAbout();
-  }
-  if (speechOK) {
-    pickVoice();
-    // Voices load asynchronously in Safari/Chrome.
-    if (speechSynthesis.addEventListener) speechSynthesis.addEventListener('voiceschanged', pickVoice);
-  }
-  function speak(text) {
-    if (!speechOK) { toast('Speech is not supported in this browser.'); return; }
-    try {
-      speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'da-DK';
-      if (daVoice) u.voice = daVoice;
-      else if (!warnedNoVoice) {
-        warnedNoVoice = true;
-        toast('No Danish voice found – pronunciation may be off. Add one: iOS Settings › Accessibility › Spoken Content › Voices › Danish.');
-      }
-      speechSynthesis.speak(u);
-    } catch (e) { toast('Could not play audio.'); }
-  }
-  function speakBtn() {
-    var b = el('button', 'speak' + (speechOK ? '' : ' off'), '🔊');
-    b.type = 'button'; b.setAttribute('aria-label', 'Pronounce in Danish');
-    b.addEventListener('click', function (ev) { ev.stopPropagation(); speak(speakText(session.current)); });
-    // Keep swipe/flip handlers from seeing this press.
-    b.addEventListener('pointerdown', function (ev) { ev.stopPropagation(); });
-    return b;
-  }
+
 
   /* ---------- study ---------- */
   function startSession() {
@@ -121,13 +81,11 @@
     var rec = state.cards[c.id];
     var tagText = TYPE_LABEL[c.type] + (rec ? ' · box ' + rec.box : ' · new');
 
-    if (!s.reverse) { front.appendChild(speakBtn()); front.appendChild(da); }
-    else front.appendChild(en);
+    front.appendChild(s.reverse ? en : da);
     front.appendChild(el('div', 'tag', tagText));
 
     // Back: the answer, then the verb forms (adjectives and adverbs are just word + meaning)
-    if (s.reverse) { back.appendChild(speakBtn()); back.appendChild(da); }
-    else back.appendChild(en);
+    back.appendChild(s.reverse ? da : en);
     if (isVerb) {
       var dl = el('dl', 'forms');
       [['IMP', c.imp], ['NU', c.nu], ['DATID', c.datid], ['PERF', c.perf]].forEach(function (p) {
@@ -320,9 +278,8 @@
 
   function updateAbout() {
     var a = $('about'); if (!a) return;
-    var v = !speechOK ? 'Speech: not supported on this device.' : daVoice ? 'Danish voice: ' + daVoice.name + '.' : 'Danish voice: none found (audio uses the default voice).';
     var cnt = {}; deck.forEach(function (d) { cnt[d.type] = (cnt[d.type] || 0) + 1; });
-    a.textContent = (cnt.verb || 0) + ' verbs · ' + (cnt.adjective || 0) + ' adjectives · ' + (cnt.adverb || 0) + ' adverbs · ' + forms.length + ' irregular verb forms · ' + v + (memoryOnly ? ' · Storage unavailable!' : '');
+    a.textContent = (cnt.verb || 0) + ' verbs · ' + (cnt.adjective || 0) + ' adjectives · ' + (cnt.adverb || 0) + ' adverbs · ' + forms.length + ' irregular verb forms' + (memoryOnly ? ' · Storage unavailable!' : '');
   }
 
   /* Export: share sheet on iOS (Save to Files / Drive), plain download elsewhere. */

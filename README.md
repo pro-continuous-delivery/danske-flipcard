@@ -3,8 +3,7 @@
 Flip-card trainer for Danish verbs, adjectives and adverbs plus a lookup for irregular verb forms, with Leitner spaced repetition. Plain HTML/CSS/JS, no build step, no backend. Progress is stored on the phone (localStorage).
 
 ## Using it
-- **Study**: tap the card to flip. Verbs show English + IMP/NU/DATID/PERF; adjectives and adverbs are just the word and its English meaning. Then *Knew it* / *Didn't know it*, or swipe right / left. The 🔊 button reads the Danish aloud (needs a Danish voice: iOS Settings › Accessibility › Spoken Content › Voices › Danish).
-- **Leitner boxes**: 5 boxes, review after 1 / 2 / 4 / 8 / 16 days. New cards that you know go to box 2; a miss sends a card back to box 1 and it returns later in the same session (max twice). Due cards come first, then new ones.
+- **Study**: tap the card to flip. Verbs show English + IMP/NU/DATID/PERF; adjectives and adverbs are just the word and its English meaning. Then *Knew it* / *Didn't know it*, or swipe right / left.- **Leitner boxes**: 5 boxes, review after 1 / 2 / 4 / 8 / 16 days. New cards that you know go to box 2; a miss sends a card back to box 1 and it returns later in the same session (max twice). Due cards come first, then new ones.
 - **Settings**: word type (all / verbs / adjectives / adverbs); for verbs a conjugation filter (green 1 / blue 2 / red 3) and "Base verbs only"; reverse mode (English → Danish); shuffle.
 - **Progress**: cards per box, due today, streak, mastery per word type (mastered = box 4–5).
 - **Lookup**: type an irregular verb form (e.g. `fandt`), a Danish word or an English word.
@@ -57,4 +56,4 @@ python -m http.server 8765 # then open http://localhost:8765 (localhost counts a
 Icons: `python tools/make_icons.py` (needs Pillow).
 
 ## Files
-`index.html` `style.css` `app.js` (UI, storage, speech) · `srs.js` (spaced-repetition rules) · `deck.json` `forms.json` (data) · `sw.js` `manifest.json` `icons/` (PWA) · `tools/` (extraction, tests, version bump, icons)
+`index.html` `style.css` `app.js` (UI, storage) · `srs.js` (spaced-repetition rules) · `deck.json` `forms.json` (data) · `sw.js` `manifest.json` `icons/` (PWA) · `tools/` (extraction, tests, version bump, icons)

@@ -1,5 +1,28 @@
+# Source documents and other binaries (the app needs none of these at runtime)
 source/
 *.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.zip
+*.7z
+*.tar
+*.gz
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.pyc
+
+# NOTE: icons/*.png are binary but REQUIRED by the manifest and service worker,
+# so images are deliberately not ignored.
+
+# Personal data and local tooling
 dansk-verber-progress-*.json
 venv/
 __pycache__/
+.claude/

@@ -2,7 +2,7 @@
  * CACHE_VERSION is rewritten by `node tools/bump_version.js` – run it whenever
  * you change deck.json or any app file, then redeploy. A new version makes the
  * browser install a new SW, which drops the old cache and takes over. */
-const CACHE_VERSION = 'vc8ac0cae44';
+const CACHE_VERSION = 'v433d8359e1';
 const CACHE = 'dansk-verber-' + CACHE_VERSION;
 const FILES = [
   './', 'index.html', 'style.css', 'app.js', 'srs.js', 'deck.json', 'forms.json', 'manifest.json',

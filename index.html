@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Danske verber</title>
+  <title>Dansk ordforråd</title>
   <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
   <!-- iOS standalone ("Add to Home Screen") mode -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Verber">
+  <meta name="apple-mobile-web-app-title" content="Dansk">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/icon-192.png">
@@ -48,7 +48,7 @@
     <!-- LOOKUP (irregular form index) -->
     <section id="view-lookup" class="view" hidden aria-label="Lookup">
       <h1>Look up a form</h1>
-      <p class="muted">Search an irregular form (e.g. <em>fandt</em>), a verb, or an English word.</p>
+      <p class="muted">Search an irregular verb form (e.g. <em>fandt</em>), a Danish word, or an English word.</p>
       <input id="q" type="search" placeholder="fandt, gå, drive…" autocomplete="off" autocapitalize="off" spellcheck="false">
       <div id="results"></div>
     </section>
@@ -57,16 +57,21 @@
     <section id="view-settings" class="view" hidden aria-label="Settings">
       <h1>Settings</h1>
       <div class="group">
-        <label class="row"><span>Meaning group</span><select id="f-group"></select></label>
-        <label class="row"><span>Conjugation</span>
+        <label class="row"><span>Word type</span>
+          <select id="f-type">
+            <option value="all">All words</option>
+            <option value="verb">Verbs</option>
+            <option value="adjective">Adjectives</option>
+            <option value="adverb">Adverbs</option>
+          </select></label>
+        <label class="row" id="row-conj"><span>Conjugation</span>
           <select id="f-conj">
             <option value="all">All</option>
             <option value="1">Group 1 (-ede / -et)</option>
             <option value="2">Group 2 (-te / -t)</option>
             <option value="3">Group 3 (irregular)</option>
           </select></label>
-        <label class="row"><span>Base verbs only <small class="muted">(no prefixed verbs)</small></span><input type="checkbox" id="f-base" class="switch"></label>
-        <label class="row"><span>Reverse (English → Danish)</span><input type="checkbox" id="f-reverse" class="switch"></label>
+        <label class="row" id="row-base"><span>Base verbs only <small class="muted">(no prefixed verbs)</small></span><input type="checkbox" id="f-base" class="switch"></label>        <label class="row"><span>Reverse (English → Danish)</span><input type="checkbox" id="f-reverse" class="switch"></label>
         <label class="row"><span>Shuffle</span><input type="checkbox" id="f-shuffle" class="switch"></label>
       </div>
 

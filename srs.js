@@ -13,7 +13,8 @@
   }
 
   function defaultSettings() {
-    return { group: 'all', conj: 'all', baseOnly: false, reverse: false, shuffle: false };
+    // type: all | verb | adjective | adverb. conj/baseOnly only apply to verbs.
+    return { type: 'all', conj: 'all', baseOnly: false, reverse: false, shuffle: false };
   }
 
   function emptyState() {
@@ -62,9 +63,12 @@
   }
 
   function matches(card, f) {
-    if (f.group !== 'all' && card.group !== f.group) return false;
-    if (f.conj !== 'all' && String(card.conjugation) !== String(f.conj)) return false;
-    if (f.baseOnly && card.prefixed) return false;
+    if (f.type !== 'all' && card.type !== f.type) return false;
+    // The verb-only filters apply only when the verb type is selected.
+    if (f.type === 'verb') {
+      if (f.conj !== 'all' && String(card.conjugation) !== String(f.conj)) return false;
+      if (f.baseOnly && card.prefixed) return false;
+    }
     return true;
   }
 
@@ -108,11 +112,11 @@
     return { counts: counts, due: due };
   }
 
-  // Per group: total, seen, mastered (box >= 4).
+  // Per word type: total, seen, mastered (box >= 4).
   function mastery(deck, state) {
     var out = {};
     deck.forEach(function (card) {
-      var g = out[card.group] || (out[card.group] = { total: 0, seen: 0, mastered: 0 });
+      var g = out[card.type] || (out[card.type] = { total: 0, seen: 0, mastered: 0 });
       g.total++;
       var c = state.cards[card.id];
       if (c) { g.seen++; if (c.box >= 4) g.mastered++; }

@@ -3,7 +3,8 @@
   --bg: #f4f5f7; --surface: #ffffff; --text: #16181d; --muted: #6a7080; --line: #dfe2e8;
   --accent: #c8102e;               /* Danish red */
   --know: #1f7a43; --miss: #b3261e;
-  --c1: #1f7043; --c2: #1c4f8a; --c3: #a33220;   /* conjugation group colours (match the PDF) */
+  --c1: #1f7043; --c2: #1c4f8a; --c3: #a33220;   /* verb conjugation group colours (match the PDF) */
+  --adj: #7a4bd1; --adv: #0e8a8a;                /* edge colours for adjective / adverb cards */
   --shadow: 0 6px 24px rgba(0, 0, 0, .12);
   color-scheme: light dark;
 }
@@ -12,6 +13,7 @@
     --bg: #111214; --surface: #1c1e22; --text: #eceef2; --muted: #9aa1b0; --line: #2d3037;
     --accent: #ff5a6e; --know: #4cc17a; --miss: #ff7a70;
     --c1: #3fae74; --c2: #5b97e0; --c3: #e8705a;
+    --adj: #b393f0; --adv: #4fd1d1;
     --shadow: 0 6px 24px rgba(0, 0, 0, .5);
   }
 }
@@ -63,6 +65,7 @@ h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .06em; color: v
 .word .at { color: var(--muted); font-weight: 500; }
 .gloss { font-size: clamp(30px, 8.5vw, 42px); font-weight: 700; }
 .tag { margin-top: 14px; font-size: 13px; color: var(--muted); }
+.row[hidden] { display: none; }
 .forms { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; margin-top: 20px; text-align: left; font-size: 18px; }
 .forms dt { color: var(--muted); font-size: 12px; letter-spacing: .06em; align-self: center; }
 .forms dd { margin: 0; font-weight: 600; }

@@ -1,7 +1,7 @@
 {
-  "name": "Danske verber",
-  "short_name": "Verber",
-  "description": "Flip-card Danish verb trainer with spaced repetition",
+  "name": "Dansk ordforråd",
+  "short_name": "Dansk",
+  "description": "Flip-card Danish verb, adjective and adverb trainer with spaced repetition",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

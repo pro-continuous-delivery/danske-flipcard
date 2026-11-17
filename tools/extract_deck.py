@@ -67,7 +67,7 @@ for pno, page in enumerate(doc):
         if not (word and imp and dat and conj): flags.append(f"p{pno+1}: incomplete card {word!r} imp={bool(imp)} dat={bool(dat)} conj={conj}")
         if not eng: flags.append(f"p{pno+1}: empty English for {word!r}")
         deck.append({
-            "id": "", "group": group, "danish": word, "english": eng or None,
+            "id": "", "type": "verb", "group": group, "danish": word, "english": eng or None,
             "imp": imp and imp.group(1), "nu": imp and imp.group(2),
             "datid": dat and dat.group(1), "perf": dat and dat.group(2),
             "conjugation": conj, "prefixed": prefixed, "example": None, "collocation": None,

@@ -3,10 +3,10 @@ const assert = require('node:assert/strict');
 const S = require('../srs.js');
 
 const deck = [
-  { id: 'a', group: 'G1', conjugation: 1, prefixed: false },
-  { id: 'b', group: 'G1', conjugation: 3, prefixed: true },
-  { id: 'c', group: 'G2', conjugation: 2, prefixed: false },
-  { id: 'd', group: 'G2', conjugation: 1, prefixed: false },
+  { id: 'a', type: 'verb', conjugation: 1, prefixed: false },
+  { id: 'b', type: 'verb', conjugation: 3, prefixed: true },
+  { id: 'c', type: 'adjective' },
+  { id: 'd', type: 'adverb' },
 ];
 const T = 20000; // arbitrary "today"
 let n = 0; const t = (name, fn) => { fn(); n++; console.log('ok  -', name); };
@@ -42,11 +42,14 @@ t('shuffle keeps due ahead of new', () => {
     assert.equal(q[0], 'c'); assert.equal(q.length, 4);
   }
 });
-t('filters: group, conjugation, base only', () => {
-  const s = S.emptyState(); const f = S.defaultSettings();
-  assert.deepEqual(S.buildQueue(deck, s, { ...f, group: 'G2' }, T, false), ['c', 'd']);
-  assert.deepEqual(S.buildQueue(deck, s, { ...f, conj: '1' }, T, false), ['a', 'd']);
-  assert.deepEqual(S.buildQueue(deck, s, { ...f, baseOnly: true }, T, false), ['a', 'c', 'd']);
+t('filters: word type, conjugation, base only', () => {
+  const s = S.emptyState(); const f = S.defaultSettings(); const q = (o) => S.buildQueue(deck, s, { ...f, ...o }, T, false);
+  assert.deepEqual(q({}), ['a', 'b', 'c', 'd']);
+  assert.deepEqual(q({ type: 'verb' }), ['a', 'b']);
+  assert.deepEqual(q({ type: 'adjective' }), ['c']);
+  assert.deepEqual(q({ type: 'verb', conj: '3' }), ['b']);
+  assert.deepEqual(q({ type: 'verb', baseOnly: true }), ['a']);
+  assert.deepEqual(q({ conj: '3', baseOnly: true }), ['a', 'b', 'c', 'd']);   // verb-only filters ignored unless type=verb
 });
 t('streak: same day no double count, next day +1, gap resets', () => {
   const s = S.emptyState();
@@ -69,8 +72,8 @@ t('boxCounts and mastery', () => {
   const bc = S.boxCounts(deck, s, T);
   assert.deepEqual(bc.counts, [2, 1, 0, 0, 1, 0]); assert.equal(bc.due, 1);
   const m = S.mastery(deck, s);
-  assert.deepEqual(m.G1, { total: 2, seen: 2, mastered: 1 });
-  assert.deepEqual(m.G2, { total: 2, seen: 0, mastered: 0 });
+  assert.deepEqual(m.verb, { total: 2, seen: 2, mastered: 1 });
+  assert.deepEqual(m.adjective, { total: 1, seen: 0, mastered: 0 });
 });
 t('export -> import round trip', () => {
   const s = S.emptyState(); S.grade(s, 'a', true, T); S.grade(s, 'b', false, T);

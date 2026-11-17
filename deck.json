@@ -1,6 +1,7 @@
 [
  {
   "id": "at-bevaege-sig",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at bevæge sig",
   "english": "move",
@@ -15,6 +16,7 @@
  },
  {
   "id": "at-dreje",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at dreje",
   "english": "turn",
@@ -29,6 +31,7 @@
  },
  {
   "id": "at-dukke-op",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at dukke op",
   "english": "appear",
@@ -43,6 +46,7 @@
  },
  {
   "id": "at-falde",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at falde",
   "english": "fall",
@@ -57,6 +61,7 @@
  },
  {
   "id": "at-flygte",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at flygte",
   "english": "escape",
@@ -71,6 +76,7 @@
  },
  {
   "id": "at-flytte",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at flytte",
   "english": "move",
@@ -85,6 +91,7 @@
  },
  {
   "id": "at-flyve",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at flyve",
   "english": "fly",
@@ -99,6 +106,7 @@
  },
  {
   "id": "at-forsvinde",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at forsvinde",
   "english": "disappear",
@@ -113,6 +121,7 @@
  },
  {
   "id": "at-foelge",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at følge",
   "english": "follow",
@@ -127,6 +136,7 @@
  },
  {
   "id": "at-glide",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at glide",
   "english": "slide",
@@ -141,6 +151,7 @@
  },
  {
   "id": "at-gaa",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at gå",
   "english": "go",
@@ -155,6 +166,7 @@
  },
  {
   "id": "at-hoppe",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at hoppe",
   "english": "jump",
@@ -169,6 +181,7 @@
  },
  {
   "id": "at-komme",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at komme",
   "english": "come",
@@ -183,6 +196,7 @@
  },
  {
   "id": "at-ankomme",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at ankomme",
   "english": "arrive",
@@ -197,6 +211,7 @@
  },
  {
   "id": "at-koere",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at køre",
   "english": "drive",
@@ -211,6 +226,7 @@
  },
  {
   "id": "at-forlade",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at forlade",
   "english": "leave",
@@ -225,6 +241,7 @@
  },
  {
   "id": "at-lande",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at lande",
   "english": "land",
@@ -239,6 +256,7 @@
  },
  {
   "id": "at-loebe",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at løbe",
   "english": "run",
@@ -253,6 +271,7 @@
  },
  {
   "id": "at-naerme-sig",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at nærme sig",
   "english": "approach",
@@ -267,6 +286,7 @@
  },
  {
   "id": "at-naa",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at nå",
   "english": "reach",
@@ -281,6 +301,7 @@
  },
  {
   "id": "at-rejse",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at rejse",
   "english": "travel",
@@ -295,6 +316,7 @@
  },
  {
   "id": "at-ride",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at ride",
   "english": "ride",
@@ -309,6 +331,7 @@
  },
  {
   "id": "at-rulle",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at rulle",
   "english": "roll",
@@ -323,6 +346,7 @@
  },
  {
   "id": "at-rykke",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at rykke",
   "english": "push",
@@ -337,6 +361,7 @@
  },
  {
   "id": "at-sejle",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at sejle",
   "english": "sail",
@@ -351,6 +376,7 @@
  },
  {
   "id": "at-springe",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at springe",
   "english": "jump",
@@ -365,6 +391,7 @@
  },
  {
   "id": "at-stige",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at stige",
   "english": "rise",
@@ -379,6 +406,7 @@
  },
  {
   "id": "at-stikke-af",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at stikke af",
   "english": "run away / flee",
@@ -393,6 +421,7 @@
  },
  {
   "id": "at-stoede-paa",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at støde på",
   "english": "encounter",
@@ -407,6 +436,7 @@
  },
  {
   "id": "at-staa-op",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at stå op",
   "english": "stand up / get up",
@@ -421,6 +451,7 @@
  },
  {
   "id": "at-synke",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at synke",
   "english": "sink",
@@ -435,6 +466,7 @@
  },
  {
   "id": "at-tage-hjem",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at tage hjem",
   "english": "take home",
@@ -449,6 +481,7 @@
  },
  {
   "id": "at-traede",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at træde",
   "english": "tread",
@@ -463,6 +496,7 @@
  },
  {
   "id": "at-vende",
+  "type": "verb",
   "group": "Bevægelse og rejse",
   "danish": "at vende",
   "english": "turn",
@@ -477,6 +511,7 @@
  },
  {
   "id": "at-advare",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at advare",
   "english": "warn",
@@ -491,6 +526,7 @@
  },
  {
   "id": "at-anbefale",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at anbefale",
   "english": "recommend",
@@ -505,6 +541,7 @@
  },
  {
   "id": "at-bede",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at bede",
   "english": "pray",
@@ -519,6 +556,7 @@
  },
  {
   "id": "at-beklage",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at beklage",
   "english": "regret",
@@ -533,6 +571,7 @@
  },
  {
   "id": "at-bekraefte",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at bekræfte",
   "english": "confirm",
@@ -547,6 +586,7 @@
  },
  {
   "id": "at-overbevise",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at overbevise",
   "english": "persuade",
@@ -561,6 +601,7 @@
  },
  {
   "id": "at-meddele",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at meddele",
   "english": "announce",
@@ -575,6 +616,7 @@
  },
  {
   "id": "at-diskutere",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at diskutere",
   "english": "discuss",
@@ -589,6 +631,7 @@
  },
  {
   "id": "at-droefte",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at drøfte",
   "english": "discuss",
@@ -603,6 +646,7 @@
  },
  {
   "id": "at-foreslaa",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at foreslå",
   "english": "suggest",
@@ -617,6 +661,7 @@
  },
  {
   "id": "at-forlange",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at forlange",
   "english": "demand",
@@ -631,6 +676,7 @@
  },
  {
   "id": "at-angive",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at angive",
   "english": "indicate",
@@ -645,6 +691,7 @@
  },
  {
   "id": "at-henvise",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at henvise",
   "english": "refer",
@@ -659,6 +706,7 @@
  },
  {
   "id": "at-hilse",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at hilse",
   "english": "greet",
@@ -673,6 +721,7 @@
  },
  {
   "id": "at-hviske",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at hviske",
   "english": "whisper",
@@ -687,6 +736,7 @@
  },
  {
   "id": "at-indroemme",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at indrømme",
   "english": "admit",
@@ -701,6 +751,7 @@
  },
  {
   "id": "at-invitere",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at invitere",
   "english": "invite",
@@ -715,6 +766,7 @@
  },
  {
   "id": "at-kalde",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at kalde",
   "english": "call",
@@ -729,6 +781,7 @@
  },
  {
   "id": "at-forklare",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at forklare",
   "english": "explain",
@@ -743,6 +796,7 @@
  },
  {
   "id": "at-kommentere",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at kommentere",
   "english": "comment",
@@ -757,6 +811,7 @@
  },
  {
   "id": "at-kontakte",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at kontakte",
   "english": "contact",
@@ -771,6 +826,7 @@
  },
  {
   "id": "at-kritisere",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at kritisere",
   "english": "criticize",
@@ -785,6 +841,7 @@
  },
  {
   "id": "at-kraeve",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at kræve",
   "english": "demand",
@@ -799,6 +856,7 @@
  },
  {
   "id": "at-lokke",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at lokke",
   "english": "attract",
@@ -813,6 +871,7 @@
  },
  {
   "id": "at-love",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at love",
   "english": "promise",
@@ -827,6 +886,7 @@
  },
  {
   "id": "at-oplyse",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at oplyse",
   "english": "inform",
@@ -841,6 +901,7 @@
  },
  {
   "id": "at-fremlaegge",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at fremlægge",
   "english": "present",
@@ -855,6 +916,7 @@
  },
  {
   "id": "at-melde",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at melde",
   "english": "report",
@@ -869,6 +931,7 @@
  },
  {
   "id": "at-minde",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at minde",
   "english": "remind",
@@ -883,6 +946,7 @@
  },
  {
   "id": "at-notere",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at notere",
   "english": "note",
@@ -897,6 +961,7 @@
  },
  {
   "id": "at-naegte",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at nægte",
   "english": "refuse",
@@ -911,6 +976,7 @@
  },
  {
   "id": "at-opfordre",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at opfordre",
   "english": "urge",
@@ -925,6 +991,7 @@
  },
  {
   "id": "at-praesentere",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at præsentere",
   "english": "present",
@@ -939,6 +1006,7 @@
  },
  {
   "id": "at-ringe",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at ringe",
   "english": "ring",
@@ -953,6 +1021,7 @@
  },
  {
   "id": "at-rose",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at rose",
   "english": "praise",
@@ -967,6 +1036,7 @@
  },
  {
   "id": "at-raabe",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at råbe",
   "english": "shout",
@@ -981,6 +1051,7 @@
  },
  {
   "id": "at-raade",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at råde",
   "english": "advise",
@@ -995,6 +1066,7 @@
  },
  {
   "id": "at-sende",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at sende",
   "english": "send",
@@ -1009,6 +1081,7 @@
  },
  {
   "id": "at-sige",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at sige",
   "english": "say",
@@ -1023,6 +1096,7 @@
  },
  {
   "id": "at-skrige",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at skrige",
   "english": "scream",
@@ -1037,6 +1111,7 @@
  },
  {
   "id": "at-skrive",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at skrive",
   "english": "write",
@@ -1051,6 +1126,7 @@
  },
  {
   "id": "at-beskrive",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at beskrive",
   "english": "describe",
@@ -1065,6 +1141,7 @@
  },
  {
   "id": "at-snakke",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at snakke",
   "english": "talk",
@@ -1079,6 +1156,7 @@
  },
  {
   "id": "at-spoerge",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at spørge",
   "english": "ask",
@@ -1093,6 +1171,7 @@
  },
  {
   "id": "at-svare",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at svare",
   "english": "answer",
@@ -1107,6 +1186,7 @@
  },
  {
   "id": "at-fremsaette",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at fremsætte",
   "english": "propose / put forward",
@@ -1121,6 +1201,7 @@
  },
  {
   "id": "at-takke",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at takke",
   "english": "thank",
@@ -1135,6 +1216,7 @@
  },
  {
   "id": "at-tale",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at tale",
   "english": "speak",
@@ -1149,6 +1231,7 @@
  },
  {
   "id": "at-udtale",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at udtale",
   "english": "pronounce",
@@ -1163,6 +1246,7 @@
  },
  {
   "id": "at-udtrykke",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at udtrykke",
   "english": "express",
@@ -1177,6 +1261,7 @@
  },
  {
   "id": "at-fortaelle",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at fortælle",
   "english": "tell",
@@ -1191,6 +1276,7 @@
  },
  {
   "id": "at-understrege",
+  "type": "verb",
   "group": "Tale og kommunikation",
   "danish": "at understrege",
   "english": "underline",
@@ -1205,6 +1291,7 @@
  },
  {
   "id": "at-uddanne",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at uddanne",
   "english": "educate",
@@ -1219,6 +1306,7 @@
  },
  {
   "id": "at-droemme",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at drømme",
   "english": "dream",
@@ -1233,6 +1321,7 @@
  },
  {
   "id": "at-erkende",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at erkende",
   "english": "recognize",
@@ -1247,6 +1336,7 @@
  },
  {
   "id": "at-anerkende",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at anerkende",
   "english": "recognize",
@@ -1261,6 +1351,7 @@
  },
  {
   "id": "at-fastslaa",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at fastslå",
   "english": "establish",
@@ -1275,6 +1366,7 @@
  },
  {
   "id": "at-fastsaette",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at fastsætte",
   "english": "establish",
@@ -1289,6 +1381,7 @@
  },
  {
   "id": "at-fatte",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at fatte",
   "english": "grasp",
@@ -1303,6 +1396,7 @@
  },
  {
   "id": "at-opfatte",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at opfatte",
   "english": "perceive",
@@ -1317,6 +1411,7 @@
  },
  {
   "id": "at-forestille-sig",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at forestille sig",
   "english": "imagine",
@@ -1331,6 +1426,7 @@
  },
  {
   "id": "at-foretraekke",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at foretrække",
   "english": "prefer",
@@ -1345,6 +1441,7 @@
  },
  {
   "id": "at-gennemgaa",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at gennemgå",
   "english": "go through",
@@ -1359,6 +1456,7 @@
  },
  {
   "id": "at-glemme",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at glemme",
   "english": "forget",
@@ -1373,6 +1471,7 @@
  },
  {
   "id": "at-godkende",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at godkende",
   "english": "approve",
@@ -1387,6 +1486,7 @@
  },
  {
   "id": "at-afgoere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at afgøre",
   "english": "decide",
@@ -1401,6 +1501,7 @@
  },
  {
   "id": "at-huske",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at huske",
   "english": "remember",
@@ -1415,6 +1516,7 @@
  },
  {
   "id": "at-haabe",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at håbe",
   "english": "hope",
@@ -1429,6 +1531,7 @@
  },
  {
   "id": "at-kende",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at kende",
   "english": "know",
@@ -1443,6 +1546,7 @@
  },
  {
   "id": "at-konstatere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at konstatere",
   "english": "ascertain",
@@ -1457,6 +1561,7 @@
  },
  {
   "id": "at-kontrollere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at kontrollere",
   "english": "control",
@@ -1471,6 +1576,7 @@
  },
  {
   "id": "at-opleve",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at opleve",
   "english": "experience",
@@ -1485,6 +1591,7 @@
  },
  {
   "id": "at-sammenligne",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at sammenligne",
   "english": "compare",
@@ -1499,6 +1606,7 @@
  },
  {
   "id": "at-laere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at lære",
   "english": "learn",
@@ -1513,6 +1621,7 @@
  },
  {
   "id": "at-laese",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at læse",
   "english": "read",
@@ -1527,6 +1636,7 @@
  },
  {
   "id": "at-loese",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at løse",
   "english": "solve",
@@ -1541,6 +1651,7 @@
  },
  {
   "id": "at-mene",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at mene",
   "english": "believe / think",
@@ -1555,6 +1666,7 @@
  },
  {
   "id": "at-maerke",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at mærke",
   "english": "mark",
@@ -1569,6 +1681,7 @@
  },
  {
   "id": "at-bemaerke",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at bemærke",
   "english": "notice",
@@ -1583,6 +1696,7 @@
  },
  {
   "id": "at-maale",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at måle",
   "english": "measure",
@@ -1597,6 +1711,7 @@
  },
  {
   "id": "at-opdage",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at opdage",
   "english": "discover",
@@ -1611,6 +1726,7 @@
  },
  {
   "id": "at-orientere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at orientere",
   "english": "orient",
@@ -1625,6 +1741,7 @@
  },
  {
   "id": "at-regne",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at regne",
   "english": "rain / calculate",
@@ -1639,6 +1756,7 @@
  },
  {
   "id": "at-rette",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at rette",
   "english": "correct",
@@ -1653,6 +1771,7 @@
  },
  {
   "id": "at-beslutte",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at beslutte",
   "english": "decide",
@@ -1667,6 +1786,7 @@
  },
  {
   "id": "at-bestemme",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at bestemme",
   "english": "determine",
@@ -1681,6 +1801,7 @@
  },
  {
   "id": "at-studere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at studere",
   "english": "study",
@@ -1695,6 +1816,7 @@
  },
  {
   "id": "at-forstaa",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at forstå",
   "english": "understand",
@@ -1709,6 +1831,7 @@
  },
  {
   "id": "at-synes",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at synes",
   "english": "seem",
@@ -1723,6 +1846,7 @@
  },
  {
   "id": "at-undersoege",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at undersøge",
   "english": "examine",
@@ -1737,6 +1861,7 @@
  },
  {
   "id": "at-gentage",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at gentage",
   "english": "repeat",
@@ -1751,6 +1876,7 @@
  },
  {
   "id": "at-tro",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at tro",
   "english": "believe",
@@ -1765,6 +1891,7 @@
  },
  {
   "id": "at-tyde",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at tyde",
   "english": "indicate / suggest",
@@ -1779,6 +1906,7 @@
  },
  {
   "id": "at-taelle",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at tælle",
   "english": "count",
@@ -1793,6 +1921,7 @@
  },
  {
   "id": "at-taenke",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at tænke",
   "english": "think",
@@ -1807,6 +1936,7 @@
  },
  {
   "id": "at-undre-sig",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at undre sig",
   "english": "wonder",
@@ -1821,6 +1951,7 @@
  },
  {
   "id": "at-veje",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at veje",
   "english": "weigh",
@@ -1835,6 +1966,7 @@
  },
  {
   "id": "at-overveje",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at overveje",
   "english": "consider",
@@ -1849,6 +1981,7 @@
  },
  {
   "id": "at-forvente",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at forvente",
   "english": "expect",
@@ -1863,6 +1996,7 @@
  },
  {
   "id": "at-vide",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at vide",
   "english": "know",
@@ -1877,6 +2011,7 @@
  },
  {
   "id": "at-bevise",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at bevise",
   "english": "prove",
@@ -1891,6 +2026,7 @@
  },
  {
   "id": "at-vurdere",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at vurdere",
   "english": "assess",
@@ -1905,6 +2041,7 @@
  },
  {
   "id": "at-vaelge",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at vælge",
   "english": "choose",
@@ -1919,6 +2056,7 @@
  },
  {
   "id": "at-oenske",
+  "type": "verb",
   "group": "Tænkning, viden og læring",
   "danish": "at ønske",
   "english": "wish",
@@ -1933,6 +2071,7 @@
  },
  {
   "id": "at-dele",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at dele",
   "english": "share",
@@ -1947,6 +2086,7 @@
  },
  {
   "id": "at-elske",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at elske",
   "english": "love",
@@ -1961,6 +2101,7 @@
  },
  {
   "id": "at-fejre",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at fejre",
   "english": "celebrate",
@@ -1975,6 +2116,7 @@
  },
  {
   "id": "at-forelske-sig",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at forelske sig",
   "english": "fall in love",
@@ -1989,6 +2131,7 @@
  },
  {
   "id": "at-friste",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at friste",
   "english": "tempt",
@@ -2003,6 +2146,7 @@
  },
  {
   "id": "at-frygte",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at frygte",
   "english": "fear",
@@ -2017,6 +2161,7 @@
  },
  {
   "id": "at-foele",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at føle",
   "english": "feel",
@@ -2031,6 +2176,7 @@
  },
  {
   "id": "at-genere",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at genere",
   "english": "bother",
@@ -2045,6 +2191,7 @@
  },
  {
   "id": "at-gifte-sig",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at gifte sig",
   "english": "marry",
@@ -2059,6 +2206,7 @@
  },
  {
   "id": "at-glaede-sig",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at glæde sig",
   "english": "look forward to",
@@ -2073,6 +2221,7 @@
  },
  {
   "id": "at-grine",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at grine",
   "english": "laugh",
@@ -2087,6 +2236,7 @@
  },
  {
   "id": "at-graede",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at græde",
   "english": "cry",
@@ -2101,6 +2251,7 @@
  },
  {
   "id": "at-hade",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at hade",
   "english": "hate",
@@ -2115,6 +2266,7 @@
  },
  {
   "id": "at-hjaelpe",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at hjælpe",
   "english": "help",
@@ -2129,6 +2281,7 @@
  },
  {
   "id": "at-hvile-sig",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at hvile sig",
   "english": "rest",
@@ -2143,6 +2296,7 @@
  },
  {
   "id": "at-inspirere",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at inspirere",
   "english": "inspire",
@@ -2157,6 +2311,7 @@
  },
  {
   "id": "at-interessere",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at interessere",
   "english": "interest",
@@ -2171,6 +2326,7 @@
  },
  {
   "id": "at-irritere",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at irritere",
   "english": "irritate",
@@ -2185,6 +2341,7 @@
  },
  {
   "id": "at-kysse",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at kysse",
   "english": "kiss",
@@ -2199,6 +2356,7 @@
  },
  {
   "id": "at-kaempe",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at kæmpe",
   "english": "fight",
@@ -2213,6 +2371,7 @@
  },
  {
   "id": "at-le",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at le",
   "english": "laugh",
@@ -2227,6 +2386,7 @@
  },
  {
   "id": "at-lide",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at lide",
   "english": "suffer",
@@ -2241,6 +2401,7 @@
  },
  {
   "id": "at-moede",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at møde",
   "english": "meet",
@@ -2255,6 +2416,7 @@
  },
  {
   "id": "at-nyde",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at nyde",
   "english": "enjoy",
@@ -2269,6 +2431,7 @@
  },
  {
   "id": "at-overraske",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at overraske",
   "english": "surprise",
@@ -2283,6 +2446,7 @@
  },
  {
   "id": "at-pleje",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at pleje",
   "english": "care",
@@ -2297,6 +2461,7 @@
  },
  {
   "id": "at-reagere",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at reagere",
   "english": "react",
@@ -2311,6 +2476,7 @@
  },
  {
   "id": "at-respektere",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at respektere",
   "english": "respect",
@@ -2325,6 +2491,7 @@
  },
  {
   "id": "at-savne",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at savne",
   "english": "miss",
@@ -2339,6 +2506,7 @@
  },
  {
   "id": "at-skraemme",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at skræmme",
   "english": "scare",
@@ -2353,6 +2521,7 @@
  },
  {
   "id": "at-slaas",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at slås",
   "english": "fight",
@@ -2367,6 +2536,7 @@
  },
  {
   "id": "at-smile",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at smile",
   "english": "smile",
@@ -2381,6 +2551,7 @@
  },
  {
   "id": "at-stole-paa",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at stole på",
   "english": "trust",
@@ -2395,6 +2566,7 @@
  },
  {
   "id": "at-stoette",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at støtte",
   "english": "support",
@@ -2409,6 +2581,7 @@
  },
  {
   "id": "at-svigte",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at svigte",
   "english": "betray / let down",
@@ -2423,6 +2596,7 @@
  },
  {
   "id": "at-besoege",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at besøge",
   "english": "visit",
@@ -2437,6 +2611,7 @@
  },
  {
   "id": "at-traeffe",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at træffe",
   "english": "meet / encounter",
@@ -2451,6 +2626,7 @@
  },
  {
   "id": "at-taale",
+  "type": "verb",
   "group": "Følelser og relationer",
   "danish": "at tåle",
   "english": "endure",
@@ -2465,6 +2641,7 @@
  },
  {
   "id": "at-acceptere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at acceptere",
   "english": "accept",
@@ -2479,6 +2656,7 @@
  },
  {
   "id": "at-arbejde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at arbejde",
   "english": "work",
@@ -2493,6 +2671,7 @@
  },
  {
   "id": "at-udarbejde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udarbejde",
   "english": "work out",
@@ -2507,6 +2686,7 @@
  },
  {
   "id": "at-arrangere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at arrangere",
   "english": "arrange",
@@ -2521,6 +2701,7 @@
  },
  {
   "id": "at-begraense",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at begrænse",
   "english": "limit",
@@ -2535,6 +2716,7 @@
  },
  {
   "id": "at-behandle",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at behandle",
   "english": "treat",
@@ -2549,6 +2731,7 @@
  },
  {
   "id": "at-benytte",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at benytte",
   "english": "use",
@@ -2563,6 +2746,7 @@
  },
  {
   "id": "at-bruge",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at bruge",
   "english": "use",
@@ -2577,6 +2761,7 @@
  },
  {
   "id": "at-afbryde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at afbryde",
   "english": "interrupt",
@@ -2591,6 +2776,7 @@
  },
  {
   "id": "at-fordele",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at fordele",
   "english": "distribute",
@@ -2605,6 +2791,7 @@
  },
  {
   "id": "at-fastholde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at fastholde",
   "english": "maintain / hold onto",
@@ -2619,6 +2806,7 @@
  },
  {
   "id": "at-forbedre",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at forbedre",
   "english": "improve",
@@ -2633,6 +2821,7 @@
  },
  {
   "id": "at-forberede",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at forberede",
   "english": "prepare",
@@ -2647,6 +2836,7 @@
  },
  {
   "id": "at-foretage-sig",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at foretage sig",
   "english": "undertake",
@@ -2661,6 +2851,7 @@
  },
  {
   "id": "at-forholde-sig",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at forholde sig",
   "english": "relate to / respond to",
@@ -2675,6 +2866,7 @@
  },
  {
   "id": "at-fungere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at fungere",
   "english": "function",
@@ -2689,6 +2881,7 @@
  },
  {
   "id": "at-opfylde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at opfylde",
   "english": "fulfill",
@@ -2703,6 +2896,7 @@
  },
  {
   "id": "at-fyre",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at fyre",
   "english": "fire",
@@ -2717,6 +2911,7 @@
  },
  {
   "id": "at-gennemfoere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at gennemføre",
   "english": "perform",
@@ -2731,6 +2926,7 @@
  },
  {
   "id": "at-afgive",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at afgive",
   "english": "submit / cast (e.g. a vote)",
@@ -2745,6 +2941,7 @@
  },
  {
   "id": "at-udgive",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udgive",
   "english": "publish",
@@ -2759,6 +2956,7 @@
  },
  {
   "id": "at-hente",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at hente",
   "english": "fetch",
@@ -2773,6 +2971,7 @@
  },
  {
   "id": "at-overholde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at overholde",
   "english": "obey",
@@ -2787,6 +2986,7 @@
  },
  {
   "id": "at-underholde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at underholde",
   "english": "entertain",
@@ -2801,6 +3001,7 @@
  },
  {
   "id": "at-installere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at installere",
   "english": "install",
@@ -2815,6 +3016,7 @@
  },
  {
   "id": "at-klare",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at klare",
   "english": "manage / handle",
@@ -2829,6 +3031,7 @@
  },
  {
   "id": "at-levere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at levere",
   "english": "deliver",
@@ -2843,6 +3046,7 @@
  },
  {
   "id": "at-aflevere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at aflevere",
   "english": "deliver",
@@ -2857,6 +3061,7 @@
  },
  {
   "id": "at-udlevere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udlevere",
   "english": "deliver",
@@ -2871,6 +3076,7 @@
  },
  {
   "id": "at-aflyse",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at aflyse",
   "english": "cancel",
@@ -2885,6 +3091,7 @@
  },
  {
   "id": "at-nedlaegge",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at nedlægge",
   "english": "put down",
@@ -2899,6 +3106,7 @@
  },
  {
   "id": "at-afloese",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at afløse",
   "english": "replace",
@@ -2913,6 +3121,7 @@
  },
  {
   "id": "at-udloese",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udløse",
   "english": "trigger",
@@ -2927,6 +3136,7 @@
  },
  {
   "id": "at-anmelde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at anmelde",
   "english": "report",
@@ -2941,6 +3151,7 @@
  },
  {
   "id": "at-offentliggoere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at offentliggøre",
   "english": "publish",
@@ -2955,6 +3166,7 @@
  },
  {
   "id": "at-opfoere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at opføre",
   "english": "construct",
@@ -2969,6 +3181,7 @@
  },
  {
   "id": "at-opnaa",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at opnå",
   "english": "achieve",
@@ -2983,6 +3196,7 @@
  },
  {
   "id": "at-overfoere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at overføre",
   "english": "transfer",
@@ -2997,6 +3211,7 @@
  },
  {
   "id": "at-planlaegge",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at planlægge",
   "english": "plan",
@@ -3011,6 +3226,7 @@
  },
  {
   "id": "at-producere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at producere",
   "english": "produce",
@@ -3025,6 +3241,7 @@
  },
  {
   "id": "at-proeve",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at prøve",
   "english": "try",
@@ -3039,6 +3256,7 @@
  },
  {
   "id": "at-registrere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at registrere",
   "english": "register",
@@ -3053,6 +3271,7 @@
  },
  {
   "id": "at-repraesentere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at repræsentere",
   "english": "represent",
@@ -3067,6 +3286,7 @@
  },
  {
   "id": "at-indrette",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at indrette",
   "english": "furnish / arrange (a room)",
@@ -3081,6 +3301,7 @@
  },
  {
   "id": "at-oprette",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at oprette",
   "english": "create",
@@ -3095,6 +3316,7 @@
  },
  {
   "id": "at-servere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at servere",
   "english": "serve",
@@ -3109,6 +3331,7 @@
  },
  {
   "id": "at-sikre",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at sikre",
   "english": "secure",
@@ -3123,6 +3346,7 @@
  },
  {
   "id": "at-skaffe",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at skaffe",
   "english": "provide",
@@ -3137,6 +3361,7 @@
  },
  {
   "id": "at-bestille",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at bestille",
   "english": "order",
@@ -3151,6 +3376,7 @@
  },
  {
   "id": "at-indstille",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at indstille",
   "english": "set",
@@ -3165,6 +3391,7 @@
  },
  {
   "id": "at-opstille",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at opstille",
   "english": "set up / nominate",
@@ -3179,6 +3406,7 @@
  },
  {
   "id": "at-styre",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at styre",
   "english": "steer / control / manage",
@@ -3193,6 +3421,7 @@
  },
  {
   "id": "at-udstyre",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udstyre",
   "english": "equip",
@@ -3207,6 +3436,7 @@
  },
  {
   "id": "at-ansaette",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at ansætte",
   "english": "employ",
@@ -3221,6 +3451,7 @@
  },
  {
   "id": "at-nedsaette",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at nedsætte",
   "english": "reduce",
@@ -3235,6 +3466,7 @@
  },
  {
   "id": "at-udsaette",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udsætte",
   "english": "postpone",
@@ -3249,6 +3481,7 @@
  },
  {
   "id": "at-soege",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at søge",
   "english": "seek",
@@ -3263,6 +3496,7 @@
  },
  {
   "id": "at-forsoege",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at forsøge",
   "english": "try",
@@ -3277,6 +3511,7 @@
  },
  {
   "id": "at-soerge-for",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at sørge for",
   "english": "care for",
@@ -3291,6 +3526,7 @@
  },
  {
   "id": "at-indtage",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at indtage",
   "english": "take",
@@ -3305,6 +3541,7 @@
  },
  {
   "id": "at-optage",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at optage",
   "english": "take up",
@@ -3319,6 +3556,7 @@
  },
  {
   "id": "at-overtage",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at overtage",
   "english": "take over",
@@ -3333,6 +3571,7 @@
  },
  {
   "id": "at-tilbyde",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at tilbyde",
   "english": "offer",
@@ -3347,6 +3586,7 @@
  },
  {
   "id": "at-tilfoeje",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at tilføje",
   "english": "add",
@@ -3361,6 +3601,7 @@
  },
  {
   "id": "at-optraede",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at optræde",
   "english": "perform",
@@ -3375,6 +3616,7 @@
  },
  {
   "id": "at-udfoere",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udføre",
   "english": "execute",
@@ -3389,6 +3631,7 @@
  },
  {
   "id": "at-udnytte",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at udnytte",
   "english": "utilize",
@@ -3403,6 +3646,7 @@
  },
  {
   "id": "at-anvende",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at anvende",
   "english": "apply",
@@ -3417,6 +3661,7 @@
  },
  {
   "id": "at-virke",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at virke",
   "english": "act",
@@ -3431,6 +3676,7 @@
  },
  {
   "id": "at-medvirke",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at medvirke",
   "english": "contribute",
@@ -3445,6 +3691,7 @@
  },
  {
   "id": "at-afvise",
+  "type": "verb",
   "group": "Arbejde og organisation",
   "danish": "at afvise",
   "english": "reject",
@@ -3459,6 +3706,7 @@
  },
  {
   "id": "at-bytte",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at bytte",
   "english": "swap",
@@ -3473,6 +3721,7 @@
  },
  {
   "id": "at-eje",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at eje",
   "english": "own",
@@ -3487,6 +3736,7 @@
  },
  {
   "id": "at-erstatte",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at erstatte",
   "english": "replace",
@@ -3501,6 +3751,7 @@
  },
  {
   "id": "at-forhandle",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at forhandle",
   "english": "negotiate",
@@ -3515,6 +3766,7 @@
  },
  {
   "id": "at-fortjene",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at fortjene",
   "english": "earn",
@@ -3529,6 +3781,7 @@
  },
  {
   "id": "at-tilhoere",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at tilhøre",
   "english": "belong",
@@ -3543,6 +3796,7 @@
  },
  {
   "id": "at-investere",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at investere",
   "english": "invest",
@@ -3557,6 +3811,7 @@
  },
  {
   "id": "at-koste",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at koste",
   "english": "cost",
@@ -3571,6 +3826,7 @@
  },
  {
   "id": "at-koebe",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at købe",
   "english": "buy",
@@ -3585,6 +3841,7 @@
  },
  {
   "id": "at-leje",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at leje",
   "english": "rent",
@@ -3599,6 +3856,7 @@
  },
  {
   "id": "at-laane",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at låne",
   "english": "borrow",
@@ -3613,6 +3871,7 @@
  },
  {
   "id": "at-miste",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at miste",
   "english": "lose",
@@ -3627,6 +3886,7 @@
  },
  {
   "id": "at-risikere",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at risikere",
   "english": "risk",
@@ -3641,6 +3901,7 @@
  },
  {
   "id": "at-satse",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at satse",
   "english": "bet",
@@ -3655,6 +3916,7 @@
  },
  {
   "id": "at-skyldes",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at skyldes",
   "english": "owed",
@@ -3669,6 +3931,7 @@
  },
  {
   "id": "at-spare",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at spare",
   "english": "save",
@@ -3683,6 +3946,7 @@
  },
  {
   "id": "at-saelge",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at sælge",
   "english": "sell",
@@ -3697,6 +3961,7 @@
  },
  {
   "id": "at-tabe",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at tabe",
   "english": "lose",
@@ -3711,6 +3976,7 @@
  },
  {
   "id": "at-betale",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at betale",
   "english": "pay",
@@ -3725,6 +3991,7 @@
  },
  {
   "id": "at-vinde",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at vinde",
   "english": "win",
@@ -3739,6 +4006,7 @@
  },
  {
   "id": "at-yde",
+  "type": "verb",
   "group": "Penge og handel",
   "danish": "at yde",
   "english": "provide",
@@ -3753,6 +4021,7 @@
  },
  {
   "id": "at-bage",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at bage",
   "english": "bake",
@@ -3767,6 +4036,7 @@
  },
  {
   "id": "at-binde",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at binde",
   "english": "bind",
@@ -3781,6 +4051,7 @@
  },
  {
   "id": "at-blande",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at blande",
   "english": "mix",
@@ -3795,6 +4066,7 @@
  },
  {
   "id": "at-bryde",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at bryde",
   "english": "break",
@@ -3809,6 +4081,7 @@
  },
  {
   "id": "at-bygge",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at bygge",
   "english": "build",
@@ -3823,6 +4096,7 @@
  },
  {
   "id": "at-opbygge",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at opbygge",
   "english": "build",
@@ -3837,6 +4111,7 @@
  },
  {
   "id": "at-danne",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at danne",
   "english": "form",
@@ -3851,6 +4126,7 @@
  },
  {
   "id": "at-opfinde",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at opfinde",
   "english": "invent",
@@ -3865,6 +4141,7 @@
  },
  {
   "id": "at-koge",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at koge",
   "english": "cook",
@@ -3879,6 +4156,7 @@
  },
  {
   "id": "at-kombinere",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at kombinere",
   "english": "combine",
@@ -3893,6 +4171,7 @@
  },
  {
   "id": "at-lave",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at lave",
   "english": "make",
@@ -3907,6 +4186,7 @@
  },
  {
   "id": "at-male",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at male",
   "english": "paint",
@@ -3921,6 +4201,7 @@
  },
  {
   "id": "at-skabe",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at skabe",
   "english": "create",
@@ -3935,6 +4216,7 @@
  },
  {
   "id": "at-stege",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at stege",
   "english": "fry / roast",
@@ -3949,6 +4231,7 @@
  },
  {
   "id": "at-fremstille",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at fremstille",
   "english": "present",
@@ -3963,6 +4246,7 @@
  },
  {
   "id": "at-sy",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at sy",
   "english": "sew",
@@ -3977,6 +4261,7 @@
  },
  {
   "id": "at-tegne",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at tegne",
   "english": "draw",
@@ -3991,6 +4276,7 @@
  },
  {
   "id": "at-udvikle",
+  "type": "verb",
   "group": "Fremstilling og bygning",
   "danish": "at udvikle",
   "english": "develop",
@@ -4005,6 +4291,7 @@
  },
  {
   "id": "at-blive",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at blive",
   "english": "become",
@@ -4019,6 +4306,7 @@
  },
  {
   "id": "at-forblive",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at forblive",
   "english": "remain",
@@ -4033,6 +4321,7 @@
  },
  {
   "id": "at-brede-sig",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at brede sig",
   "english": "spread",
@@ -4047,6 +4336,7 @@
  },
  {
   "id": "at-fjerne",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at fjerne",
   "english": "remove",
@@ -4061,6 +4351,7 @@
  },
  {
   "id": "at-forsinke",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at forsinke",
   "english": "delay",
@@ -4075,6 +4366,7 @@
  },
  {
   "id": "at-forvandle",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at forvandle",
   "english": "transform",
@@ -4089,6 +4381,7 @@
  },
  {
   "id": "at-hindre",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at hindre",
   "english": "hinder",
@@ -4103,6 +4396,7 @@
  },
  {
   "id": "at-forhindre",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at forhindre",
   "english": "prevent",
@@ -4117,6 +4411,7 @@
  },
  {
   "id": "at-haeve",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at hæve",
   "english": "raise",
@@ -4131,6 +4426,7 @@
  },
  {
   "id": "at-ophaeve",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at ophæve",
   "english": "cancel",
@@ -4145,6 +4441,7 @@
  },
  {
   "id": "at-praege",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at præge",
   "english": "imprint",
@@ -4159,6 +4456,7 @@
  },
  {
   "id": "at-paavirke",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at påvirke",
   "english": "influence",
@@ -4173,6 +4471,7 @@
  },
  {
   "id": "at-reducere",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at reducere",
   "english": "reduce",
@@ -4187,6 +4486,7 @@
  },
  {
   "id": "at-skifte",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at skifte",
   "english": "change",
@@ -4201,6 +4501,7 @@
  },
  {
   "id": "at-stramme",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at stramme",
   "english": "tighten",
@@ -4215,6 +4516,7 @@
  },
  {
   "id": "at-styrke",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at styrke",
   "english": "strengthen",
@@ -4229,6 +4531,7 @@
  },
  {
   "id": "at-saenke",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at sænke",
   "english": "lower",
@@ -4243,6 +4546,7 @@
  },
  {
   "id": "at-udbrede",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at udbrede",
   "english": "spread",
@@ -4257,6 +4561,7 @@
  },
  {
   "id": "at-udelukke",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at udelukke",
   "english": "exclude",
@@ -4271,6 +4576,7 @@
  },
  {
   "id": "at-variere",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at variere",
   "english": "vary",
@@ -4285,6 +4591,7 @@
  },
  {
   "id": "at-udvide",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at udvide",
   "english": "expand",
@@ -4299,6 +4606,7 @@
  },
  {
   "id": "at-vokse",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at vokse",
   "english": "grow",
@@ -4313,6 +4621,7 @@
  },
  {
   "id": "at-aendre",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at ændre",
   "english": "change",
@@ -4327,6 +4636,7 @@
  },
  {
   "id": "at-oedelaegge",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at ødelægge",
   "english": "destroy",
@@ -4341,6 +4651,7 @@
  },
  {
   "id": "at-oege",
+  "type": "verb",
   "group": "Forandring og udvikling",
   "danish": "at øge",
   "english": "increase",
@@ -4355,6 +4666,7 @@
  },
  {
   "id": "at-begynde",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at begynde",
   "english": "begin",
@@ -4369,6 +4681,7 @@
  },
  {
   "id": "at-eksistere",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at eksistere",
   "english": "exist",
@@ -4383,6 +4696,7 @@
  },
  {
   "id": "at-foregaa",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at foregå",
   "english": "occur",
@@ -4397,6 +4711,7 @@
  },
  {
   "id": "at-forekomme",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at forekomme",
   "english": "occur",
@@ -4411,6 +4726,7 @@
  },
  {
   "id": "at-fortsaette",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at fortsætte",
   "english": "continue",
@@ -4425,6 +4741,7 @@
  },
  {
   "id": "at-opgive",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at opgive",
   "english": "abandon",
@@ -4439,6 +4756,7 @@
  },
  {
   "id": "at-beholde",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at beholde",
   "english": "keep",
@@ -4453,6 +4771,7 @@
  },
  {
   "id": "at-indlede",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at indlede",
   "english": "initiate",
@@ -4467,6 +4786,7 @@
  },
  {
   "id": "at-lykkes",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at lykkes",
   "english": "succeed",
@@ -4481,6 +4801,7 @@
  },
  {
   "id": "at-ske",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at ske",
   "english": "happen",
@@ -4495,6 +4816,7 @@
  },
  {
   "id": "at-slutte",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at slutte",
   "english": "end",
@@ -4509,6 +4831,7 @@
  },
  {
   "id": "at-afslutte",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at afslutte",
   "english": "terminate",
@@ -4523,6 +4846,7 @@
  },
  {
   "id": "at-standse",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at standse",
   "english": "stop",
@@ -4537,6 +4861,7 @@
  },
  {
   "id": "at-starte",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at starte",
   "english": "start",
@@ -4551,6 +4876,7 @@
  },
  {
   "id": "at-stoppe",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at stoppe",
   "english": "stop",
@@ -4565,6 +4891,7 @@
  },
  {
   "id": "at-opstaa",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at opstå",
   "english": "arise",
@@ -4579,6 +4906,7 @@
  },
  {
   "id": "at-tilbringe",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at tilbringe",
   "english": "spend",
@@ -4593,6 +4921,7 @@
  },
  {
   "id": "at-undgaa",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at undgå",
   "english": "avoid",
@@ -4607,6 +4936,7 @@
  },
  {
   "id": "at-vente",
+  "type": "verb",
   "group": "Begyndelse, slutning og forløb",
   "danish": "at vente",
   "english": "wait",
@@ -4621,6 +4951,7 @@
  },
  {
   "id": "at-adskille",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at adskille",
   "english": "separate",
@@ -4635,6 +4966,7 @@
  },
  {
   "id": "at-anbringe",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at anbringe",
   "english": "place",
@@ -4649,6 +4981,7 @@
  },
  {
   "id": "at-banke",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at banke",
   "english": "knock",
@@ -4663,6 +4996,7 @@
  },
  {
   "id": "at-forbinde",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at forbinde",
   "english": "connect",
@@ -4677,6 +5011,7 @@
  },
  {
   "id": "at-baere",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at bære",
   "english": "carry",
@@ -4691,6 +5026,7 @@
  },
  {
   "id": "at-fange",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at fange",
   "english": "capture",
@@ -4705,6 +5041,7 @@
  },
  {
   "id": "at-finde",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at finde",
   "english": "find",
@@ -4719,6 +5056,7 @@
  },
  {
   "id": "at-fylde",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at fylde",
   "english": "fill",
@@ -4733,6 +5071,7 @@
  },
  {
   "id": "at-faa",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at få",
   "english": "get",
@@ -4747,6 +5086,7 @@
  },
  {
   "id": "at-gemme",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at gemme",
   "english": "hide",
@@ -4761,6 +5101,7 @@
  },
  {
   "id": "at-give",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at give",
   "english": "give",
@@ -4775,6 +5116,7 @@
  },
  {
   "id": "at-gribe",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at gribe",
   "english": "grab",
@@ -4789,6 +5131,7 @@
  },
  {
   "id": "at-holde",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at holde",
   "english": "hold",
@@ -4803,6 +5146,7 @@
  },
  {
   "id": "at-haenge",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at hænge",
   "english": "hang",
@@ -4817,6 +5161,7 @@
  },
  {
   "id": "at-kaste",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at kaste",
   "english": "throw",
@@ -4831,6 +5176,7 @@
  },
  {
   "id": "at-lade",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at lade",
   "english": "let",
@@ -4845,6 +5191,7 @@
  },
  {
   "id": "at-efterlade",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at efterlade",
   "english": "leave",
@@ -4859,6 +5206,7 @@
  },
  {
   "id": "at-overlade",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at overlade",
   "english": "entrust / leave to",
@@ -4873,6 +5221,7 @@
  },
  {
   "id": "at-ligge",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at ligge",
   "english": "lie",
@@ -4887,6 +5236,7 @@
  },
  {
   "id": "at-laegge",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at lægge",
   "english": "lay",
@@ -4901,6 +5251,7 @@
  },
  {
   "id": "at-loefte",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at løfte",
   "english": "lift",
@@ -4915,6 +5266,7 @@
  },
  {
   "id": "at-modtage",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at modtage",
   "english": "receive",
@@ -4929,6 +5281,7 @@
  },
  {
   "id": "at-pakke",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at pakke",
   "english": "package",
@@ -4943,6 +5296,7 @@
  },
  {
   "id": "at-pege",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at pege",
   "english": "point",
@@ -4957,6 +5311,7 @@
  },
  {
   "id": "at-placere",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at placere",
   "english": "place",
@@ -4971,6 +5326,7 @@
  },
  {
   "id": "at-presse",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at presse",
   "english": "press",
@@ -4985,6 +5341,7 @@
  },
  {
   "id": "at-ramme",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at ramme",
   "english": "hit / strike",
@@ -4999,6 +5356,7 @@
  },
  {
   "id": "at-rive",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at rive",
   "english": "tear",
@@ -5013,6 +5371,7 @@
  },
  {
   "id": "at-ryste",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at ryste",
   "english": "shake",
@@ -5027,6 +5386,7 @@
  },
  {
   "id": "at-raekke",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at række",
   "english": "hand / pass (something)",
@@ -5041,6 +5401,7 @@
  },
  {
   "id": "at-roere",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at røre",
   "english": "touch",
@@ -5055,6 +5416,7 @@
  },
  {
   "id": "at-samle",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at samle",
   "english": "collect",
@@ -5069,6 +5431,7 @@
  },
  {
   "id": "at-sidde",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at sidde",
   "english": "sit",
@@ -5083,6 +5446,7 @@
  },
  {
   "id": "at-skjule",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at skjule",
   "english": "hide",
@@ -5097,6 +5461,7 @@
  },
  {
   "id": "at-skubbe",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at skubbe",
   "english": "push",
@@ -5111,6 +5476,7 @@
  },
  {
   "id": "at-skaere",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at skære",
   "english": "cut",
@@ -5125,6 +5491,7 @@
  },
  {
   "id": "at-slippe",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at slippe",
   "english": "drop",
@@ -5139,6 +5506,7 @@
  },
  {
   "id": "at-smide",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at smide",
   "english": "throw",
@@ -5153,6 +5521,7 @@
  },
  {
   "id": "at-sprede",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at sprede",
   "english": "spread",
@@ -5167,6 +5536,7 @@
  },
  {
   "id": "at-stille",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at stille",
   "english": "place / pose (a question)",
@@ -5181,6 +5551,7 @@
  },
  {
   "id": "at-straekke",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at strække",
   "english": "stretch",
@@ -5195,6 +5566,7 @@
  },
  {
   "id": "at-stoede",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at støde",
   "english": "bump / push",
@@ -5209,6 +5581,7 @@
  },
  {
   "id": "at-svinge",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at svinge",
   "english": "swing",
@@ -5223,6 +5596,7 @@
  },
  {
   "id": "at-saette",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at sætte",
   "english": "put",
@@ -5237,6 +5611,7 @@
  },
  {
   "id": "at-tage",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at tage",
   "english": "take",
@@ -5251,6 +5626,7 @@
  },
  {
   "id": "at-trykke",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at trykke",
   "english": "press",
@@ -5265,6 +5641,7 @@
  },
  {
   "id": "at-traekke",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at trække",
   "english": "pull",
@@ -5279,6 +5656,7 @@
  },
  {
   "id": "at-toemme",
+  "type": "verb",
   "group": "Hold, sæt, læg og tag",
   "danish": "at tømme",
   "english": "empty",
@@ -5293,6 +5671,7 @@
  },
  {
   "id": "at-begrave",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at begrave",
   "english": "bury",
@@ -5307,6 +5686,7 @@
  },
  {
   "id": "at-bo",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at bo",
   "english": "live",
@@ -5321,6 +5701,7 @@
  },
  {
   "id": "at-drikke",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at drikke",
   "english": "drink",
@@ -5335,6 +5716,7 @@
  },
  {
   "id": "at-daekke",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at dække",
   "english": "cover",
@@ -5349,6 +5731,7 @@
  },
  {
   "id": "at-hoere",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at høre",
   "english": "hear",
@@ -5363,6 +5746,7 @@
  },
  {
   "id": "at-kigge",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at kigge",
   "english": "look",
@@ -5377,6 +5761,7 @@
  },
  {
   "id": "at-klippe",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at klippe",
   "english": "cut",
@@ -5391,6 +5776,7 @@
  },
  {
   "id": "at-leve",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at leve",
   "english": "live",
@@ -5405,6 +5791,7 @@
  },
  {
   "id": "at-lukke",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at lukke",
   "english": "close",
@@ -5419,6 +5806,7 @@
  },
  {
   "id": "at-lytte",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at lytte",
   "english": "listen",
@@ -5433,6 +5821,7 @@
  },
  {
   "id": "at-pudse",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at pudse",
   "english": "polish",
@@ -5447,6 +5836,7 @@
  },
  {
   "id": "at-rense",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at rense",
   "english": "clean",
@@ -5461,6 +5851,7 @@
  },
  {
   "id": "at-rydde",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at rydde",
   "english": "clear",
@@ -5475,6 +5866,7 @@
  },
  {
   "id": "at-ryge",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at ryge",
   "english": "smoke",
@@ -5489,6 +5881,7 @@
  },
  {
   "id": "at-se",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at se",
   "english": "see",
@@ -5503,6 +5896,7 @@
  },
  {
   "id": "at-slukke",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at slukke",
   "english": "extinguish",
@@ -5517,6 +5911,7 @@
  },
  {
   "id": "at-smage",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at smage",
   "english": "taste",
@@ -5531,6 +5926,7 @@
  },
  {
   "id": "at-sove",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at sove",
   "english": "sleep",
@@ -5545,6 +5941,7 @@
  },
  {
   "id": "at-spise",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at spise",
   "english": "eat",
@@ -5559,6 +5956,7 @@
  },
  {
   "id": "at-taende",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at tænde",
   "english": "turn on / light",
@@ -5573,6 +5971,7 @@
  },
  {
   "id": "at-toerre",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at tørre",
   "english": "dry",
@@ -5587,6 +5986,7 @@
  },
  {
   "id": "at-vaske",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at vaske",
   "english": "wash",
@@ -5601,6 +6001,7 @@
  },
  {
   "id": "at-aabne",
+  "type": "verb",
   "group": "Hverdag og hjem",
   "danish": "at åbne",
   "english": "open",
@@ -5615,6 +6016,7 @@
  },
  {
   "id": "at-bide",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at bide",
   "english": "bite",
@@ -5629,6 +6031,7 @@
  },
  {
   "id": "at-blaese",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at blæse",
   "english": "blow",
@@ -5643,6 +6046,7 @@
  },
  {
   "id": "at-doe",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at dø",
   "english": "die",
@@ -5657,6 +6061,7 @@
  },
  {
   "id": "at-overleve",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at overleve",
   "english": "survive",
@@ -5671,6 +6076,7 @@
  },
  {
   "id": "at-lyse",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at lyse",
   "english": "light",
@@ -5685,6 +6091,7 @@
  },
  {
   "id": "at-operere",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at operere",
   "english": "operate",
@@ -5699,6 +6106,7 @@
  },
  {
   "id": "at-skade",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at skade",
   "english": "damage",
@@ -5713,6 +6121,7 @@
  },
  {
   "id": "at-skinne",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at skinne",
   "english": "shine",
@@ -5727,6 +6136,7 @@
  },
  {
   "id": "at-smitte",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at smitte",
   "english": "infect",
@@ -5741,6 +6151,7 @@
  },
  {
   "id": "at-vaccinere",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at vaccinere",
   "english": "vaccinate",
@@ -5755,6 +6166,7 @@
  },
  {
   "id": "at-vaekke",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at vække",
   "english": "awake",
@@ -5769,6 +6181,7 @@
  },
  {
   "id": "at-vaagne",
+  "type": "verb",
   "group": "Krop, sundhed og natur",
   "danish": "at vågne",
   "english": "wake up",
@@ -5783,6 +6196,7 @@
  },
  {
   "id": "at-arrestere",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at arrestere",
   "english": "arrest",
@@ -5797,6 +6211,7 @@
  },
  {
   "id": "at-begaa",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at begå",
   "english": "commit",
@@ -5811,6 +6226,7 @@
  },
  {
   "id": "at-beskytte",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at beskytte",
   "english": "protect",
@@ -5825,6 +6241,7 @@
  },
  {
   "id": "at-deltage",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at deltage",
   "english": "participate",
@@ -5839,6 +6256,7 @@
  },
  {
   "id": "at-draebe",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at dræbe",
   "english": "kill",
@@ -5853,6 +6271,7 @@
  },
  {
   "id": "at-doemme",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at dømme",
   "english": "judge",
@@ -5867,6 +6286,7 @@
  },
  {
   "id": "at-omgive",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at omgive",
   "english": "surround",
@@ -5881,6 +6301,7 @@
  },
  {
   "id": "at-anholde",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at anholde",
   "english": "arrest",
@@ -5895,6 +6316,7 @@
  },
  {
   "id": "at-tillade",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at tillade",
   "english": "allow",
@@ -5909,6 +6331,7 @@
  },
  {
   "id": "at-myrde",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at myrde",
   "english": "murder",
@@ -5923,6 +6346,7 @@
  },
  {
   "id": "at-redde",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at redde",
   "english": "save",
@@ -5937,6 +6361,7 @@
  },
  {
   "id": "at-skyde",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at skyde",
   "english": "shoot",
@@ -5951,6 +6376,7 @@
  },
  {
   "id": "at-slaa",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at slå",
   "english": "hit",
@@ -5965,6 +6391,7 @@
  },
  {
   "id": "at-stemme",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at stemme",
   "english": "vote",
@@ -5979,6 +6406,7 @@
  },
  {
   "id": "at-stjaele",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at stjæle",
   "english": "steal",
@@ -5993,6 +6421,7 @@
  },
  {
   "id": "at-straffe",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at straffe",
   "english": "punish",
@@ -6007,6 +6436,7 @@
  },
  {
   "id": "at-forsvare",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at forsvare",
   "english": "defend",
@@ -6021,6 +6451,7 @@
  },
  {
   "id": "at-besaette",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at besætte",
   "english": "occupy",
@@ -6035,6 +6466,7 @@
  },
  {
   "id": "at-true",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at true",
   "english": "threaten",
@@ -6049,6 +6481,7 @@
  },
  {
   "id": "at-tvinge",
+  "type": "verb",
   "group": "Samfund, lov og konflikt",
   "danish": "at tvinge",
   "english": "force",
@@ -6063,6 +6496,7 @@
  },
  {
   "id": "at-behoeve",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at behøve",
   "english": "need",
@@ -6077,6 +6511,7 @@
  },
  {
   "id": "at-omfatte",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at omfatte",
   "english": "comprise / include",
@@ -6091,6 +6526,7 @@
  },
  {
   "id": "at-befinde",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at befinde",
   "english": "be located (befinde sig)",
@@ -6105,6 +6541,7 @@
  },
  {
   "id": "at-goere",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at gøre",
   "english": "do",
@@ -6119,6 +6556,7 @@
  },
  {
   "id": "at-udgoere",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at udgøre",
   "english": "constitute",
@@ -6133,6 +6571,7 @@
  },
  {
   "id": "at-have",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at have",
   "english": "have",
@@ -6147,6 +6586,7 @@
  },
  {
   "id": "at-hedde",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at hedde",
   "english": "be called / be named",
@@ -6161,6 +6601,7 @@
  },
  {
   "id": "at-indebaere",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at indebære",
   "english": "imply",
@@ -6175,6 +6616,7 @@
  },
  {
   "id": "at-indeholde",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at indeholde",
   "english": "contain",
@@ -6189,6 +6631,7 @@
  },
  {
   "id": "at-kunne",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at kunne",
   "english": "could",
@@ -6203,6 +6646,7 @@
  },
  {
   "id": "at-ligne",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at ligne",
   "english": "resemble / look like",
@@ -6217,6 +6661,7 @@
  },
  {
   "id": "at-lyde",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at lyde",
   "english": "sound",
@@ -6231,6 +6676,7 @@
  },
  {
   "id": "at-mangle",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at mangle",
   "english": "lack",
@@ -6245,6 +6691,7 @@
  },
  {
   "id": "at-maatte",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at måtte",
   "english": "had to",
@@ -6259,6 +6706,7 @@
  },
  {
   "id": "at-passe",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at passe",
   "english": "fit",
@@ -6273,6 +6721,7 @@
  },
  {
   "id": "at-rumme",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at rumme",
   "english": "hold",
@@ -6287,6 +6736,7 @@
  },
  {
   "id": "at-skulle",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at skulle",
   "english": "should",
@@ -6301,6 +6751,7 @@
  },
  {
   "id": "at-stamme",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at stamme",
   "english": "stem",
@@ -6315,6 +6766,7 @@
  },
  {
   "id": "at-bestaa",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at bestå",
   "english": "pass",
@@ -6329,6 +6781,7 @@
  },
  {
   "id": "at-traenge",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at trænge",
   "english": "need / push through",
@@ -6343,6 +6796,7 @@
  },
  {
   "id": "at-betyde",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at betyde",
   "english": "mean",
@@ -6357,6 +6811,7 @@
  },
  {
   "id": "at-ville",
+  "type": "verb",
   "group": "Grundverber og modaler",
   "danish": "at ville",
   "english": "would",
@@ -6371,6 +6826,7 @@
  },
  {
   "id": "at-danse",
+  "type": "verb",
   "group": "Sanser, udtryk og leg",
   "danish": "at danse",
   "english": "dance",
@@ -6385,6 +6841,7 @@
  },
  {
   "id": "at-lege",
+  "type": "verb",
   "group": "Sanser, udtryk og leg",
   "danish": "at lege",
   "english": "play",
@@ -6399,6 +6856,7 @@
  },
  {
   "id": "at-nikke",
+  "type": "verb",
   "group": "Sanser, udtryk og leg",
   "danish": "at nikke",
   "english": "nod",
@@ -6413,6 +6871,7 @@
  },
  {
   "id": "at-spille",
+  "type": "verb",
   "group": "Sanser, udtryk og leg",
   "danish": "at spille",
   "english": "play",
@@ -6427,6 +6886,7 @@
  },
  {
   "id": "at-synge",
+  "type": "verb",
   "group": "Sanser, udtryk og leg",
   "danish": "at synge",
   "english": "sing",
@@ -6441,6 +6901,7 @@
  },
  {
   "id": "at-vise",
+  "type": "verb",
   "group": "Sanser, udtryk og leg",
   "danish": "at vise",
   "english": "show",
@@ -6452,5 +6913,1625 @@
   "prefixed": false,
   "example": null,
   "collocation": null
+ },
+ {
+  "id": "adj-forskellig",
+  "type": "adjective",
+  "danish": "forskellig",
+  "english": "different, various"
+ },
+ {
+  "id": "adj-speciel",
+  "type": "adjective",
+  "danish": "speciel",
+  "english": "special"
+ },
+ {
+  "id": "adj-saerlig",
+  "type": "adjective",
+  "danish": "særlig",
+  "english": "particular, special"
+ },
+ {
+  "id": "adj-ekstra",
+  "type": "adjective",
+  "danish": "ekstra",
+  "english": "extra"
+ },
+ {
+  "id": "adj-almindelig",
+  "type": "adjective",
+  "danish": "almindelig",
+  "english": "ordinary, normal"
+ },
+ {
+  "id": "adj-haard",
+  "type": "adjective",
+  "danish": "hård",
+  "english": "hard, tough"
+ },
+ {
+  "id": "adj-fin",
+  "type": "adjective",
+  "danish": "fin",
+  "english": "fine, nice"
+ },
+ {
+  "id": "adj-flot",
+  "type": "adjective",
+  "danish": "flot",
+  "english": "nice, fine, impressive"
+ },
+ {
+  "id": "adj-laekker",
+  "type": "adjective",
+  "danish": "lækker",
+  "english": "delicious, lovely"
+ },
+ {
+  "id": "adj-sikker",
+  "type": "adjective",
+  "danish": "sikker",
+  "english": "sure, certain"
+ },
+ {
+  "id": "adj-anderledes",
+  "type": "adjective",
+  "danish": "anderledes",
+  "english": "different, otherwise"
+ },
+ {
+  "id": "adj-faelles",
+  "type": "adjective",
+  "danish": "fælles",
+  "english": "shared, common"
+ },
+ {
+  "id": "adj-daglig",
+  "type": "adjective",
+  "danish": "daglig",
+  "english": "daily"
+ },
+ {
+  "id": "adj-hoeflig",
+  "type": "adjective",
+  "danish": "høflig",
+  "english": "polite"
+ },
+ {
+  "id": "adj-parat",
+  "type": "adjective",
+  "danish": "parat",
+  "english": "ready, prepared"
+ },
+ {
+  "id": "adj-typisk",
+  "type": "adjective",
+  "danish": "typisk",
+  "english": "typical"
+ },
+ {
+  "id": "adj-erfaren",
+  "type": "adjective",
+  "danish": "erfaren",
+  "english": "experienced"
+ },
+ {
+  "id": "adj-paalidelig",
+  "type": "adjective",
+  "danish": "pålidelig",
+  "english": "reliable"
+ },
+ {
+  "id": "adj-fleksibel",
+  "type": "adjective",
+  "danish": "fleksibel",
+  "english": "flexible"
+ },
+ {
+  "id": "adj-stresset",
+  "type": "adjective",
+  "danish": "stresset",
+  "english": "stressed"
+ },
+ {
+  "id": "adj-arbejdsloes",
+  "type": "adjective",
+  "danish": "arbejdsløs",
+  "english": "unemployed"
+ },
+ {
+  "id": "adj-kvalificeret",
+  "type": "adjective",
+  "danish": "kvalificeret",
+  "english": "qualified"
+ },
+ {
+  "id": "adj-engageret",
+  "type": "adjective",
+  "danish": "engageret",
+  "english": "committed, engaged"
+ },
+ {
+  "id": "adj-kraevende",
+  "type": "adjective",
+  "danish": "krævende",
+  "english": "demanding"
+ },
+ {
+  "id": "adj-professionel",
+  "type": "adjective",
+  "danish": "professionel",
+  "english": "professional"
+ },
+ {
+  "id": "adj-stabil",
+  "type": "adjective",
+  "danish": "stabil",
+  "english": "stable, reliable"
+ },
+ {
+  "id": "adj-udlaert",
+  "type": "adjective",
+  "danish": "udlært",
+  "english": "fully trained (a trade)"
+ },
+ {
+  "id": "adj-fastansat",
+  "type": "adjective",
+  "danish": "fastansat",
+  "english": "permanently employed"
+ },
+ {
+  "id": "adj-effektiv",
+  "type": "adjective",
+  "danish": "effektiv",
+  "english": "effective"
+ },
+ {
+  "id": "adj-handy",
+  "type": "adjective",
+  "danish": "handy",
+  "english": "handy"
+ },
+ {
+  "id": "adj-udadvendt",
+  "type": "adjective",
+  "danish": "udadvendt",
+  "english": "outgoing"
+ },
+ {
+  "id": "adj-velfungerende",
+  "type": "adjective",
+  "danish": "velfungerende",
+  "english": "well-functioning"
+ },
+ {
+  "id": "adj-brugervenlig",
+  "type": "adjective",
+  "danish": "brugervenlig",
+  "english": "user-friendly"
+ },
+ {
+  "id": "adj-oekonomisk",
+  "type": "adjective",
+  "danish": "økonomisk",
+  "english": "financial"
+ },
+ {
+  "id": "adj-varierende",
+  "type": "adjective",
+  "danish": "varierende",
+  "english": "varying"
+ },
+ {
+  "id": "adj-stressende",
+  "type": "adjective",
+  "danish": "stressende",
+  "english": "stressful"
+ },
+ {
+  "id": "adj-fysisk",
+  "type": "adjective",
+  "danish": "fysisk",
+  "english": "physical"
+ },
+ {
+  "id": "adj-psykisk",
+  "type": "adjective",
+  "danish": "psykisk",
+  "english": "mental"
+ },
+ {
+  "id": "adj-ugentlig",
+  "type": "adjective",
+  "danish": "ugentlig",
+  "english": "weekly"
+ },
+ {
+  "id": "adj-maanedlig",
+  "type": "adjective",
+  "danish": "månedlig",
+  "english": "monthly"
+ },
+ {
+  "id": "adj-aarlig",
+  "type": "adjective",
+  "danish": "årlig",
+  "english": "yearly, annual"
+ },
+ {
+  "id": "adj-omgaaende",
+  "type": "adjective",
+  "danish": "omgående",
+  "english": "immediate"
+ },
+ {
+  "id": "adj-uforpligtende",
+  "type": "adjective",
+  "danish": "uforpligtende",
+  "english": "non-binding"
+ },
+ {
+  "id": "adj-tilmeldt",
+  "type": "adjective",
+  "danish": "tilmeldt",
+  "english": "registered"
+ },
+ {
+  "id": "adj-direkte",
+  "type": "adjective",
+  "danish": "direkte",
+  "english": "direct, directly"
+ },
+ {
+  "id": "adj-skiftende",
+  "type": "adjective",
+  "danish": "skiftende",
+  "english": "changing, varying"
+ },
+ {
+  "id": "adj-dygtig",
+  "type": "adjective",
+  "danish": "dygtig",
+  "english": "skilled, clever"
+ },
+ {
+  "id": "adj-doven",
+  "type": "adjective",
+  "danish": "doven",
+  "english": "lazy"
+ },
+ {
+  "id": "adj-flittig",
+  "type": "adjective",
+  "danish": "flittig",
+  "english": "diligent"
+ },
+ {
+  "id": "adj-motiveret",
+  "type": "adjective",
+  "danish": "motiveret",
+  "english": "motivated"
+ },
+ {
+  "id": "adj-teoretisk",
+  "type": "adjective",
+  "danish": "teoretisk",
+  "english": "theoretical"
+ },
+ {
+  "id": "adj-praktisk",
+  "type": "adjective",
+  "danish": "praktisk",
+  "english": "practical"
+ },
+ {
+  "id": "adj-boglig",
+  "type": "adjective",
+  "danish": "boglig",
+  "english": "academic, book-oriented"
+ },
+ {
+  "id": "adj-kreativ",
+  "type": "adjective",
+  "danish": "kreativ",
+  "english": "creative"
+ },
+ {
+  "id": "adj-disciplineret",
+  "type": "adjective",
+  "danish": "disciplineret",
+  "english": "disciplined"
+ },
+ {
+  "id": "adj-koncentreret",
+  "type": "adjective",
+  "danish": "koncentreret",
+  "english": "focused"
+ },
+ {
+  "id": "adj-skriftlig",
+  "type": "adjective",
+  "danish": "skriftlig",
+  "english": "written (opposite: mundtlig)"
+ },
+ {
+  "id": "adj-teknisk",
+  "type": "adjective",
+  "danish": "teknisk",
+  "english": "technical"
+ },
+ {
+  "id": "adj-hyggelig",
+  "type": "adjective",
+  "danish": "hyggelig",
+  "english": "cosy, pleasant"
+ },
+ {
+  "id": "adj-hjemlig",
+  "type": "adjective",
+  "danish": "hjemlig",
+  "english": "homely"
+ },
+ {
+  "id": "adj-sparsommelig",
+  "type": "adjective",
+  "danish": "sparsommelig",
+  "english": "frugal, thrifty"
+ },
+ {
+  "id": "adj-social",
+  "type": "adjective",
+  "danish": "social",
+  "english": "social"
+ },
+ {
+  "id": "adj-ensom",
+  "type": "adjective",
+  "danish": "ensom",
+  "english": "lonely"
+ },
+ {
+  "id": "adj-aktiv",
+  "type": "adjective",
+  "danish": "aktiv",
+  "english": "active"
+ },
+ {
+  "id": "adj-afslappet",
+  "type": "adjective",
+  "danish": "afslappet",
+  "english": "relaxed"
+ },
+ {
+  "id": "adj-romantisk",
+  "type": "adjective",
+  "danish": "romantisk",
+  "english": "romantic"
+ },
+ {
+  "id": "adj-spaendt",
+  "type": "adjective",
+  "danish": "spændt",
+  "english": "excited, eager"
+ },
+ {
+  "id": "adj-lettet",
+  "type": "adjective",
+  "danish": "lettet",
+  "english": "relieved"
+ },
+ {
+  "id": "adj-usikker",
+  "type": "adjective",
+  "danish": "usikker",
+  "english": "uncertain, insecure"
+ },
+ {
+  "id": "adj-rolig",
+  "type": "adjective",
+  "danish": "rolig",
+  "english": "calm, quiet"
+ },
+ {
+  "id": "adj-perfekt",
+  "type": "adjective",
+  "danish": "perfekt",
+  "english": "perfect"
+ },
+ {
+  "id": "adj-hjaelpsom",
+  "type": "adjective",
+  "danish": "hjælpsom",
+  "english": "helpful"
+ },
+ {
+  "id": "adj-fremmed",
+  "type": "adjective",
+  "danish": "fremmed",
+  "english": "unknown, a stranger"
+ },
+ {
+  "id": "adj-rimelig",
+  "type": "adjective",
+  "danish": "rimelig",
+  "english": "fairly, reasonable"
+ },
+ {
+  "id": "adj-farlig",
+  "type": "adjective",
+  "danish": "farlig",
+  "english": "dangerous"
+ },
+ {
+  "id": "adj-chokeret",
+  "type": "adjective",
+  "danish": "chokeret",
+  "english": "shocked"
+ },
+ {
+  "id": "adj-urolig",
+  "type": "adjective",
+  "danish": "urolig",
+  "english": "anxious, uneasy"
+ },
+ {
+  "id": "adj-umulig",
+  "type": "adjective",
+  "danish": "umulig",
+  "english": "impossible"
+ },
+ {
+  "id": "adj-doedtraet",
+  "type": "adjective",
+  "danish": "dødtræt",
+  "english": "dead tired"
+ },
+ {
+  "id": "adj-trofast",
+  "type": "adjective",
+  "danish": "trofast",
+  "english": "loyal"
+ },
+ {
+  "id": "adj-madglad",
+  "type": "adjective",
+  "danish": "madglad",
+  "english": "food-loving"
+ },
+ {
+  "id": "adj-vaagen",
+  "type": "adjective",
+  "danish": "vågen",
+  "english": "awake"
+ },
+ {
+  "id": "adj-nygift",
+  "type": "adjective",
+  "danish": "nygift",
+  "english": "newly married"
+ },
+ {
+  "id": "adj-blind",
+  "type": "adjective",
+  "danish": "blind",
+  "english": "blind"
+ },
+ {
+  "id": "adj-tyk",
+  "type": "adjective",
+  "danish": "tyk",
+  "english": "thick, fat"
+ },
+ {
+  "id": "adj-flad",
+  "type": "adjective",
+  "danish": "flad",
+  "english": "flat"
+ },
+ {
+  "id": "adj-rodet",
+  "type": "adjective",
+  "danish": "rodet",
+  "english": "messy"
+ },
+ {
+  "id": "adj-snavset",
+  "type": "adjective",
+  "danish": "snavset",
+  "english": "dirty"
+ },
+ {
+  "id": "adj-hjemloes",
+  "type": "adjective",
+  "danish": "hjemløs",
+  "english": "homeless"
+ },
+ {
+  "id": "adj-utrolig",
+  "type": "adjective",
+  "danish": "utrolig",
+  "english": "incredible (also an adverb)"
+ },
+ {
+  "id": "adj-skoen",
+  "type": "adjective",
+  "danish": "skøn",
+  "english": "lovely, beautiful"
+ },
+ {
+  "id": "adj-grim",
+  "type": "adjective",
+  "danish": "grim",
+  "english": "ugly, nasty"
+ },
+ {
+  "id": "adj-personlig",
+  "type": "adjective",
+  "danish": "personlig",
+  "english": "personal"
+ },
+ {
+  "id": "adj-irriterende",
+  "type": "adjective",
+  "danish": "irriterende",
+  "english": "irritating"
+ },
+ {
+  "id": "adj-soed",
+  "type": "adjective",
+  "danish": "sød",
+  "english": "sweet"
+ },
+ {
+  "id": "adj-moerk",
+  "type": "adjective",
+  "danish": "mørk",
+  "english": "dark (opposite: lys)"
+ },
+ {
+  "id": "adj-vild",
+  "type": "adjective",
+  "danish": "vild",
+  "english": "wild"
+ },
+ {
+  "id": "adj-ens",
+  "type": "adjective",
+  "danish": "ens",
+  "english": "alike, the same"
+ },
+ {
+  "id": "adj-uaendret",
+  "type": "adjective",
+  "danish": "uændret",
+  "english": "unchanged"
+ },
+ {
+  "id": "adj-toaarig-x-aarig",
+  "type": "adjective",
+  "danish": "toårig / X-årig",
+  "english": "two-year-old (X years old)"
+ },
+ {
+  "id": "adj-en-enkelt",
+  "type": "adjective",
+  "danish": "(en) enkelt",
+  "english": "single, one only"
+ },
+ {
+  "id": "adj-eneste",
+  "type": "adjective",
+  "danish": "eneste",
+  "english": "only, sole"
+ },
+ {
+  "id": "adj-halv",
+  "type": "adjective",
+  "danish": "halv",
+  "english": "half"
+ },
+ {
+  "id": "adj-kort",
+  "type": "adjective",
+  "danish": "kort",
+  "english": "short"
+ },
+ {
+  "id": "adj-opvokset",
+  "type": "adjective",
+  "danish": "opvokset",
+  "english": "grown up, raised"
+ },
+ {
+  "id": "adj-boende",
+  "type": "adjective",
+  "danish": "boende",
+  "english": "living, staying"
+ },
+ {
+  "id": "adj-noedt",
+  "type": "adjective",
+  "danish": "nødt",
+  "english": "forced — always \"nødt til at...\""
+ },
+ {
+  "id": "adj-vigtig-vigtigst-e",
+  "type": "adjective",
+  "danish": "vigtig → vigtigst(e)",
+  "english": "important → most important"
+ },
+ {
+  "id": "adj-tryg",
+  "type": "adjective",
+  "danish": "tryg",
+  "english": "safe, secure"
+ },
+ {
+  "id": "adj-noedvendig",
+  "type": "adjective",
+  "danish": "nødvendig",
+  "english": "necessary"
+ },
+ {
+  "id": "adj-heldig",
+  "type": "adjective",
+  "danish": "heldig",
+  "english": "lucky"
+ },
+ {
+  "id": "adj-uheldig",
+  "type": "adjective",
+  "danish": "uheldig",
+  "english": "unlucky"
+ },
+ {
+  "id": "adj-maerkelig-underlig",
+  "type": "adjective",
+  "danish": "mærkelig / underlig",
+  "english": "strange, odd"
+ },
+ {
+  "id": "adj-skuffet",
+  "type": "adjective",
+  "danish": "skuffet",
+  "english": "disappointed (skuffet over)"
+ },
+ {
+  "id": "adj-enlig",
+  "type": "adjective",
+  "danish": "enlig",
+  "english": "single (as a parent)"
+ },
+ {
+  "id": "adj-brugt",
+  "type": "adjective",
+  "danish": "brugt",
+  "english": "used, second-hand"
+ },
+ {
+  "id": "adj-aergerlig",
+  "type": "adjective",
+  "danish": "ærgerlig",
+  "english": "a pity, annoying"
+ },
+ {
+  "id": "adj-mulig",
+  "type": "adjective",
+  "danish": "mulig",
+  "english": "possible"
+ },
+ {
+  "id": "adj-fuld-af",
+  "type": "adjective",
+  "danish": "fuld (af)",
+  "english": "full (of)"
+ },
+ {
+  "id": "adj-slut",
+  "type": "adjective",
+  "danish": "slut",
+  "english": "over, finished"
+ },
+ {
+  "id": "adj-laast",
+  "type": "adjective",
+  "danish": "låst",
+  "english": "locked"
+ },
+ {
+  "id": "adj-braendende",
+  "type": "adjective",
+  "danish": "brændende",
+  "english": "burning"
+ },
+ {
+  "id": "adj-nyfoedt",
+  "type": "adjective",
+  "danish": "nyfødt",
+  "english": "newborn"
+ },
+ {
+  "id": "adj-nyaabnet",
+  "type": "adjective",
+  "danish": "nyåbnet",
+  "english": "newly opened"
+ },
+ {
+  "id": "adj-nysynet",
+  "type": "adjective",
+  "danish": "nysynet",
+  "english": "freshly inspected (car)"
+ },
+ {
+  "id": "adj-populaer",
+  "type": "adjective",
+  "danish": "populær",
+  "english": "popular"
+ },
+ {
+  "id": "adj-kraftig",
+  "type": "adjective",
+  "danish": "kraftig",
+  "english": "strong, powerful"
+ },
+ {
+  "id": "adj-suveraen",
+  "type": "adjective",
+  "danish": "suveræn",
+  "english": "superb, excellent"
+ },
+ {
+  "id": "adj-total",
+  "type": "adjective",
+  "danish": "total",
+  "english": "total, complete"
+ },
+ {
+  "id": "adj-frisk",
+  "type": "adjective",
+  "danish": "frisk",
+  "english": "fresh, well"
+ },
+ {
+  "id": "adj-veludhvilet",
+  "type": "adjective",
+  "danish": "veludhvilet",
+  "english": "well rested"
+ },
+ {
+  "id": "adj-akut",
+  "type": "adjective",
+  "danish": "akut",
+  "english": "acute, urgent"
+ },
+ {
+  "id": "adj-medbragt",
+  "type": "adjective",
+  "danish": "medbragt",
+  "english": "brought along"
+ },
+ {
+  "id": "adj-hjemmelavet",
+  "type": "adjective",
+  "danish": "hjemmelavet",
+  "english": "homemade"
+ },
+ {
+  "id": "adj-friskbagt",
+  "type": "adjective",
+  "danish": "friskbagt",
+  "english": "freshly baked"
+ },
+ {
+  "id": "adj-ferielukket",
+  "type": "adjective",
+  "danish": "ferielukket",
+  "english": "closed for holidays"
+ },
+ {
+  "id": "adj-privat",
+  "type": "adjective",
+  "danish": "privat",
+  "english": "private"
+ },
+ {
+  "id": "adj-aaben",
+  "type": "adjective",
+  "danish": "åben",
+  "english": "open"
+ },
+ {
+  "id": "adj-ledig",
+  "type": "adjective",
+  "danish": "ledig",
+  "english": "vacant, available"
+ },
+ {
+  "id": "adj-attraktiv",
+  "type": "adjective",
+  "danish": "attraktiv",
+  "english": "attractive"
+ },
+ {
+  "id": "adj-baerbar",
+  "type": "adjective",
+  "danish": "bærbar",
+  "english": "portable (laptop)"
+ },
+ {
+  "id": "adj-stationaer",
+  "type": "adjective",
+  "danish": "stationær",
+  "english": "desktop"
+ },
+ {
+  "id": "adj-smart",
+  "type": "adjective",
+  "danish": "smart",
+  "english": "stylish, nice-looking"
+ },
+ {
+  "id": "adj-yderligere",
+  "type": "adjective",
+  "danish": "yderligere",
+  "english": "further, additional"
+ },
+ {
+  "id": "adj-elektrisk",
+  "type": "adjective",
+  "danish": "elektrisk",
+  "english": "electric"
+ },
+ {
+  "id": "adj-hvid",
+  "type": "adjective",
+  "danish": "hvid",
+  "english": "white"
+ },
+ {
+  "id": "adj-gul",
+  "type": "adjective",
+  "danish": "gul",
+  "english": "yellow"
+ },
+ {
+  "id": "adj-graa",
+  "type": "adjective",
+  "danish": "grå",
+  "english": "grey"
+ },
+ {
+  "id": "adj-varm",
+  "type": "adjective",
+  "danish": "varm",
+  "english": "warm, hot"
+ },
+ {
+  "id": "adj-aftenaaben",
+  "type": "adjective",
+  "danish": "aftenåben",
+  "english": "open in the evening"
+ },
+ {
+  "id": "adj-velegnet",
+  "type": "adjective",
+  "danish": "velegnet",
+  "english": "well suited (velegnet til)"
+ },
+ {
+  "id": "adj-nyistandsat",
+  "type": "adjective",
+  "danish": "nyistandsat",
+  "english": "newly renovated"
+ },
+ {
+  "id": "adj-kronisk",
+  "type": "adjective",
+  "danish": "kronisk",
+  "english": "chronic"
+ },
+ {
+  "id": "adj-eksklusiv",
+  "type": "adjective",
+  "danish": "eksklusiv",
+  "english": "exclusive"
+ },
+ {
+  "id": "adj-hjemmebagt",
+  "type": "adjective",
+  "danish": "hjemmebagt",
+  "english": "home-baked"
+ },
+ {
+  "id": "adj-veltilavet",
+  "type": "adjective",
+  "danish": "veltilavet",
+  "english": "well prepared"
+ },
+ {
+  "id": "adj-farvestraalende",
+  "type": "adjective",
+  "danish": "farvestrålende",
+  "english": "colourful"
+ },
+ {
+  "id": "adj-smilende",
+  "type": "adjective",
+  "danish": "smilende",
+  "english": "smiling"
+ },
+ {
+  "id": "adj-demokratisk",
+  "type": "adjective",
+  "danish": "demokratisk",
+  "english": "democratic"
+ },
+ {
+  "id": "adj-lovlig",
+  "type": "adjective",
+  "danish": "lovlig",
+  "english": "legal"
+ },
+ {
+  "id": "adj-ulovlig",
+  "type": "adjective",
+  "danish": "ulovlig",
+  "english": "illegal"
+ },
+ {
+  "id": "adj-ligevaerdig",
+  "type": "adjective",
+  "danish": "ligeværdig",
+  "english": "of equal worth"
+ },
+ {
+  "id": "adj-retfaerdig",
+  "type": "adjective",
+  "danish": "retfærdig",
+  "english": "fair, just"
+ },
+ {
+  "id": "adj-tolerant",
+  "type": "adjective",
+  "danish": "tolerant",
+  "english": "tolerant"
+ },
+ {
+  "id": "adj-mangfoldig",
+  "type": "adjective",
+  "danish": "mangfoldig",
+  "english": "diverse"
+ },
+ {
+  "id": "adj-frivillig",
+  "type": "adjective",
+  "danish": "frivillig",
+  "english": "voluntary"
+ },
+ {
+  "id": "adj-ansvarlig",
+  "type": "adjective",
+  "danish": "ansvarlig",
+  "english": "responsible"
+ },
+ {
+  "id": "adj-italiensk",
+  "type": "adjective",
+  "danish": "italiensk",
+  "english": "Italian"
+ },
+ {
+  "id": "adj-spansk",
+  "type": "adjective",
+  "danish": "spansk",
+  "english": "Spanish"
+ },
+ {
+  "id": "adj-arabisk",
+  "type": "adjective",
+  "danish": "arabisk",
+  "english": "Arabic"
+ },
+ {
+  "id": "adj-australsk",
+  "type": "adjective",
+  "danish": "australsk",
+  "english": "Australian"
+ },
+ {
+  "id": "adj-nordisk",
+  "type": "adjective",
+  "danish": "nordisk",
+  "english": "Nordic"
+ },
+ {
+  "id": "adj-afrikansk",
+  "type": "adjective",
+  "danish": "afrikansk",
+  "english": "African"
+ },
+ {
+  "id": "adj-international",
+  "type": "adjective",
+  "danish": "international",
+  "english": "international"
+ },
+ {
+  "id": "adv-indenfor",
+  "type": "adverb",
+  "danish": "indenfor",
+  "english": "inside"
+ },
+ {
+  "id": "adv-udenfor",
+  "type": "adverb",
+  "danish": "udenfor",
+  "english": "outside"
+ },
+ {
+  "id": "adv-derhen",
+  "type": "adverb",
+  "danish": "derhen",
+  "english": "(to) there"
+ },
+ {
+  "id": "adv-forbi",
+  "type": "adverb",
+  "danish": "forbi",
+  "english": "past, by"
+ },
+ {
+  "id": "adv-tilbage",
+  "type": "adverb",
+  "danish": "tilbage",
+  "english": "back / left over"
+ },
+ {
+  "id": "adv-alene",
+  "type": "adverb",
+  "danish": "alene",
+  "english": "alone"
+ },
+ {
+  "id": "adv-stadigvaek",
+  "type": "adverb",
+  "danish": "stadigvæk",
+  "english": "still (= stadig)"
+ },
+ {
+  "id": "adv-herind",
+  "type": "adverb",
+  "danish": "herind",
+  "english": "in here"
+ },
+ {
+  "id": "adv-igennem",
+  "type": "adverb",
+  "danish": "igennem",
+  "english": "through"
+ },
+ {
+  "id": "adv-hjemmefra",
+  "type": "adverb",
+  "danish": "hjemmefra",
+  "english": "away from home"
+ },
+ {
+  "id": "adv-der",
+  "type": "adverb",
+  "danish": "dér",
+  "english": "there (stressed)"
+ },
+ {
+  "id": "adv-afsted",
+  "type": "adverb",
+  "danish": "afsted",
+  "english": "off, away (also written af sted)"
+ },
+ {
+  "id": "adv-midt",
+  "type": "adverb",
+  "danish": "midt",
+  "english": "in the middle (of): midt i byen"
+ },
+ {
+  "id": "adv-udlandet",
+  "type": "adverb",
+  "danish": "udlandet",
+  "english": "abroad (i udlandet = in, til udlandet = to)"
+ },
+ {
+  "id": "adv-ikke",
+  "type": "adverb",
+  "danish": "ikke",
+  "english": "not"
+ },
+ {
+  "id": "adv-altid",
+  "type": "adverb",
+  "danish": "altid",
+  "english": "always"
+ },
+ {
+  "id": "adv-aldrig",
+  "type": "adverb",
+  "danish": "aldrig",
+  "english": "never"
+ },
+ {
+  "id": "adv-nok",
+  "type": "adverb",
+  "danish": "nok",
+  "english": "probably / enough"
+ },
+ {
+  "id": "adv-gerne",
+  "type": "adverb",
+  "danish": "gerne",
+  "english": "gladly, willingly"
+ },
+ {
+  "id": "adv-tit",
+  "type": "adverb",
+  "danish": "tit",
+  "english": "often"
+ },
+ {
+  "id": "adv-sjaeldent",
+  "type": "adverb",
+  "danish": "sjældent",
+  "english": "rarely"
+ },
+ {
+  "id": "adv-jo",
+  "type": "adverb",
+  "danish": "jo",
+  "english": "as you know (shared knowledge)"
+ },
+ {
+  "id": "adv-bare",
+  "type": "adverb",
+  "danish": "bare",
+  "english": "just, only"
+ },
+ {
+  "id": "adv-stadig",
+  "type": "adverb",
+  "danish": "stadig",
+  "english": "still"
+ },
+ {
+  "id": "adv-ogsaa",
+  "type": "adverb",
+  "danish": "også",
+  "english": "also, too"
+ },
+ {
+  "id": "adv-kun",
+  "type": "adverb",
+  "danish": "kun",
+  "english": "only"
+ },
+ {
+  "id": "adv-selvfoelgelig",
+  "type": "adverb",
+  "danish": "selvfølgelig",
+  "english": "of course"
+ },
+ {
+  "id": "adv-isaer",
+  "type": "adverb",
+  "danish": "især",
+  "english": "especially"
+ },
+ {
+  "id": "adv-specielt-saerligt",
+  "type": "adverb",
+  "danish": "specielt / særligt",
+  "english": "particularly"
+ },
+ {
+  "id": "adv-generelt",
+  "type": "adverb",
+  "danish": "generelt",
+  "english": "generally"
+ },
+ {
+  "id": "adv-praecis",
+  "type": "adverb",
+  "danish": "præcis",
+  "english": "exactly, precisely"
+ },
+ {
+  "id": "adv-pludselig",
+  "type": "adverb",
+  "danish": "pludselig",
+  "english": "suddenly"
+ },
+ {
+  "id": "adv-primaert",
+  "type": "adverb",
+  "danish": "primært",
+  "english": "mainly, primarily"
+ },
+ {
+  "id": "adv-simpelthen",
+  "type": "adverb",
+  "danish": "simpelthen",
+  "english": "simply, just"
+ },
+ {
+  "id": "adv-sagtens",
+  "type": "adverb",
+  "danish": "sagtens",
+  "english": "easily, no problem"
+ },
+ {
+  "id": "adv-cirka",
+  "type": "adverb",
+  "danish": "cirka",
+  "english": "approximately"
+ },
+ {
+  "id": "adv-ligesom",
+  "type": "adverb",
+  "danish": "ligesom",
+  "english": "just like, as if"
+ },
+ {
+  "id": "adv-endda",
+  "type": "adverb",
+  "danish": "endda",
+  "english": "even"
+ },
+ {
+  "id": "adv-netop",
+  "type": "adverb",
+  "danish": "netop",
+  "english": "exactly, just"
+ },
+ {
+  "id": "adv-oveni",
+  "type": "adverb",
+  "danish": "oveni",
+  "english": "on top, in addition"
+ },
+ {
+  "id": "adv-aabenbart",
+  "type": "adverb",
+  "danish": "åbenbart",
+  "english": "apparently, evidently"
+ },
+ {
+  "id": "adv-vist",
+  "type": "adverb",
+  "danish": "vist",
+  "english": "apparently, I think"
+ },
+ {
+  "id": "adv-enormt",
+  "type": "adverb",
+  "danish": "enormt",
+  "english": "enormously"
+ },
+ {
+  "id": "adv-blot",
+  "type": "adverb",
+  "danish": "blot",
+  "english": "merely, just"
+ },
+ {
+  "id": "adv-endelig",
+  "type": "adverb",
+  "danish": "endelig",
+  "english": "finally"
+ },
+ {
+  "id": "adv-overhovedet",
+  "type": "adverb",
+  "danish": "overhovedet",
+  "english": "at all (usually with ikke)"
+ },
+ {
+  "id": "adv-heller",
+  "type": "adverb",
+  "danish": "heller",
+  "english": "neither, either (heller ikke)"
+ },
+ {
+  "id": "adv-mest",
+  "type": "adverb",
+  "danish": "mest",
+  "english": "mostly"
+ },
+ {
+  "id": "adv-allermest",
+  "type": "adverb",
+  "danish": "allermest",
+  "english": "most of all"
+ },
+ {
+  "id": "adv-tja",
+  "type": "adverb",
+  "danish": "tja",
+  "english": "well... (hesitating)"
+ },
+ {
+  "id": "adv-nu",
+  "type": "adverb",
+  "danish": "nu",
+  "english": "now"
+ },
+ {
+  "id": "adv-snart",
+  "type": "adverb",
+  "danish": "snart",
+  "english": "soon"
+ },
+ {
+  "id": "adv-straks",
+  "type": "adverb",
+  "danish": "straks",
+  "english": "right away, immediately"
+ },
+ {
+  "id": "adv-allerede",
+  "type": "adverb",
+  "danish": "allerede",
+  "english": "already"
+ },
+ {
+  "id": "adv-endnu",
+  "type": "adverb",
+  "danish": "endnu",
+  "english": "yet, still"
+ },
+ {
+  "id": "adv-for-nylig",
+  "type": "adverb",
+  "danish": "for nylig",
+  "english": "recently"
+ },
+ {
+  "id": "adv-i-gaar",
+  "type": "adverb",
+  "danish": "i går",
+  "english": "yesterday"
+ },
+ {
+  "id": "adv-i-dag",
+  "type": "adverb",
+  "danish": "i dag",
+  "english": "today"
+ },
+ {
+  "id": "adv-i-morgen",
+  "type": "adverb",
+  "danish": "i morgen",
+  "english": "tomorrow"
+ },
+ {
+  "id": "adv-i-overmorgen",
+  "type": "adverb",
+  "danish": "i overmorgen",
+  "english": "the day after tomorrow"
+ },
+ {
+  "id": "adv-bagefter",
+  "type": "adverb",
+  "danish": "bagefter",
+  "english": "afterwards"
+ },
+ {
+  "id": "adv-senere",
+  "type": "adverb",
+  "danish": "senere",
+  "english": "later"
+ },
+ {
+  "id": "adv-tidligere",
+  "type": "adverb",
+  "danish": "tidligere",
+  "english": "earlier, previously"
+ },
+ {
+  "id": "adv-foerst",
+  "type": "adverb",
+  "danish": "først",
+  "english": "first, not until"
+ },
+ {
+  "id": "adv-til-sidst",
+  "type": "adverb",
+  "danish": "til sidst",
+  "english": "finally, in the end"
+ },
+ {
+  "id": "adv-engang",
+  "type": "adverb",
+  "danish": "engang",
+  "english": "once, at some point"
+ },
+ {
+  "id": "adv-nogensinde",
+  "type": "adverb",
+  "danish": "nogensinde",
+  "english": "ever"
+ },
+ {
+  "id": "adv-for-tiden-i-oejeblikket",
+  "type": "adverb",
+  "danish": "for tiden / i øjeblikket",
+  "english": "currently, at the moment"
+ },
+ {
+  "id": "adv-dengang",
+  "type": "adverb",
+  "danish": "dengang",
+  "english": "back then"
+ },
+ {
+  "id": "adv-derefter",
+  "type": "adverb",
+  "danish": "derefter",
+  "english": "after that, next"
+ },
+ {
+  "id": "adv-indimellem",
+  "type": "adverb",
+  "danish": "indimellem",
+  "english": "now and then"
+ },
+ {
+  "id": "adv-sommetider",
+  "type": "adverb",
+  "danish": "sommetider",
+  "english": "sometimes (= somme tider)"
+ },
+ {
+  "id": "adv-meget",
+  "type": "adverb",
+  "danish": "meget",
+  "english": "very / a lot"
+ },
+ {
+  "id": "adv-lidt",
+  "type": "adverb",
+  "danish": "lidt",
+  "english": "a little"
+ },
+ {
+  "id": "adv-naesten",
+  "type": "adverb",
+  "danish": "næsten",
+  "english": "almost"
+ },
+ {
+  "id": "adv-helt",
+  "type": "adverb",
+  "danish": "helt",
+  "english": "completely"
+ },
+ {
+  "id": "adv-ret",
+  "type": "adverb",
+  "danish": "ret",
+  "english": "quite, fairly"
+ },
+ {
+  "id": "adv-temmelig",
+  "type": "adverb",
+  "danish": "temmelig",
+  "english": "rather, quite"
+ },
+ {
+  "id": "adv-alt-for",
+  "type": "adverb",
+  "danish": "alt for",
+  "english": "way too"
+ },
+ {
+  "id": "adv-ganske",
+  "type": "adverb",
+  "danish": "ganske",
+  "english": "quite"
+ },
+ {
+  "id": "adv-slet",
+  "type": "adverb",
+  "danish": "slet",
+  "english": "not at all (with ikke)"
+ },
+ {
+  "id": "adv-vel",
+  "type": "adverb",
+  "danish": "vel",
+  "english": "I assume, right? (seeking agreement)"
+ },
+ {
+  "id": "adv-da",
+  "type": "adverb",
+  "danish": "da",
+  "english": "well, indeed (softening or insisting)"
+ },
+ {
+  "id": "adv-dog",
+  "type": "adverb",
+  "danish": "dog",
+  "english": "however, do consider"
+ },
+ {
+  "id": "adv-sikkert",
+  "type": "adverb",
+  "danish": "sikkert",
+  "english": "surely, probably"
+ },
+ {
+  "id": "adv-maaske",
+  "type": "adverb",
+  "danish": "måske",
+  "english": "maybe"
+ },
+ {
+  "id": "adv-heldigvis",
+  "type": "adverb",
+  "danish": "heldigvis",
+  "english": "fortunately"
+ },
+ {
+  "id": "adv-desvaerre",
+  "type": "adverb",
+  "danish": "desværre",
+  "english": "unfortunately"
+ },
+ {
+  "id": "adv-ellers",
+  "type": "adverb",
+  "danish": "ellers",
+  "english": "otherwise, or else"
+ },
+ {
+  "id": "adv-dermed",
+  "type": "adverb",
+  "danish": "dermed",
+  "english": "with that, thereby"
+ },
+ {
+  "id": "adv-egentlig",
+  "type": "adverb",
+  "danish": "egentlig",
+  "english": "actually, really"
+ },
+ {
+  "id": "adv-efterhaanden",
+  "type": "adverb",
+  "danish": "efterhånden",
+  "english": "gradually, by now"
+ },
+ {
+  "id": "adv-hellere",
+  "type": "adverb",
+  "danish": "hellere",
+  "english": "rather"
+ },
+ {
+  "id": "adv-naturligvis",
+  "type": "adverb",
+  "danish": "naturligvis",
+  "english": "naturally, of course"
+ },
+ {
+  "id": "adv-normalt",
+  "type": "adverb",
+  "danish": "normalt",
+  "english": "normally"
+ },
+ {
+  "id": "adv-overalt",
+  "type": "adverb",
+  "danish": "overalt",
+  "english": "everywhere"
  }
 ]

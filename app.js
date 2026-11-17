@@ -38,6 +38,11 @@
   var today = function () { return SRS.dayNum(); };
 
   /* ---------- speech (Danish) ---------- */
+  var TYPE_LABEL = { verb: 'Verb', adjective: 'Adjective', adverb: 'Adverb' };
+  // Text for the voice: drop "(en)", arrows and slashes that would be read out loud.
+  function speakText(c) {
+    return c.danish.replace(/\([^)]*\)/g, '').replace(/\s*→\s*/g, ', ').replace(/\s*\/\s*/g, ', ').replace(/\s+/g, ' ').trim();
+  }
   var daVoice = null, warnedNoVoice = false;
   var speechOK = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   function pickVoice() {
@@ -69,7 +74,7 @@
   function speakBtn() {
     var b = el('button', 'speak' + (speechOK ? '' : ' off'), '🔊');
     b.type = 'button'; b.setAttribute('aria-label', 'Pronounce in Danish');
-    b.addEventListener('click', function (ev) { ev.stopPropagation(); speak(session.current.danish); });
+    b.addEventListener('click', function (ev) { ev.stopPropagation(); speak(speakText(session.current)); });
     // Keep swipe/flip handlers from seeing this press.
     b.addEventListener('pointerdown', function (ev) { ev.stopPropagation(); });
     return b;
@@ -101,27 +106,36 @@
     $('btn-know').disabled = $('btn-miss').disabled = true;
     if (!c) { renderEmpty(); void card.offsetWidth; card.classList.remove('notrans'); return; }
 
-    var conjColor = 'var(--c' + c.conjugation + ')';
+    var isVerb = c.type === 'verb';
+    // Edge colour: verbs = conjugation group (as in the PDF); adjectives / adverbs have their own colour.
+    var edge = isVerb ? 'var(--c' + c.conjugation + ')' : c.type === 'adjective' ? 'var(--adj)' : 'var(--adv)';
     var front = $('front'), back = $('back');
     front.textContent = ''; back.textContent = '';
-    front.style.setProperty('--conj', conjColor); back.style.setProperty('--conj', conjColor);
+    front.style.setProperty('--conj', edge); back.style.setProperty('--conj', edge);
 
-    var da = el('div', 'word'); da.appendChild(el('span', 'at', 'at ')); da.appendChild(document.createTextNode(c.danish.replace(/^at /, '')));
+    var da = el('div', 'word');
+    if (isVerb) { da.appendChild(el('span', 'at', 'at ')); da.appendChild(document.createTextNode(c.danish.replace(/^at /, ''))); }
+    else da.textContent = c.danish;
     var en = el('div', 'gloss', c.english);
+    if (c.english.length > 26) en.style.fontSize = '24px';       // long glosses, e.g. movement/location pairs
     var rec = state.cards[c.id];
-    var tag = el('div', 'tag', c.group + (rec ? ' · box ' + rec.box : ' · new'));
+    var tagText = TYPE_LABEL[c.type] + (rec ? ' · box ' + rec.box : ' · new');
 
-    if (!s.reverse) { front.appendChild(speakBtn()); front.appendChild(da); front.appendChild(el('div', 'tag', c.group + (rec ? ' · box ' + rec.box : ' · new'))); }
-    else { front.appendChild(en); front.appendChild(el('div', 'tag', c.group + (rec ? ' · box ' + rec.box : ' · new'))); }
+    if (!s.reverse) { front.appendChild(speakBtn()); front.appendChild(da); }
+    else front.appendChild(en);
+    front.appendChild(el('div', 'tag', tagText));
 
-    // Back: the answer + conjugation forms
+    // Back: the answer, then the verb forms (adjectives and adverbs are just word + meaning)
     if (s.reverse) { back.appendChild(speakBtn()); back.appendChild(da); }
     else back.appendChild(en);
-    var dl = el('dl', 'forms');
-    [['IMP', c.imp], ['NU', c.nu], ['DATID', c.datid], ['PERF', c.perf]].forEach(function (p) {
-      dl.appendChild(el('dt', null, p[0])); dl.appendChild(el('dd', null, p[1]));
-    });
-    back.appendChild(dl); back.appendChild(tag);
+    if (isVerb) {
+      var dl = el('dl', 'forms');
+      [['IMP', c.imp], ['NU', c.nu], ['DATID', c.datid], ['PERF', c.perf]].forEach(function (p) {
+        dl.appendChild(el('dt', null, p[0])); dl.appendChild(el('dd', null, p[1]));
+      });
+      back.appendChild(dl);
+    }
+    back.appendChild(el('div', 'tag', tagText));
     void card.offsetWidth; card.classList.remove('notrans');
     busy = false;
   }
@@ -240,11 +254,12 @@
     });
     v.appendChild(bars);
 
-    v.appendChild(el('h2', null, 'Mastery by group'));
+    v.appendChild(el('h2', null, 'Mastery by word type'));
     v.appendChild(el('p', 'muted small', 'Dark = mastered (box 4–5), light = seen at least once.'));
-    Object.keys(m).forEach(function (g) {
-      var x = m[g], r = el('div', 'm-row');
-      r.appendChild(el('div', null, g + ' — ' + x.mastered + '/' + x.total + ' mastered'));
+    ['verb', 'adjective', 'adverb'].forEach(function (g) {
+      var x = m[g]; if (!x) return;
+      var r = el('div', 'm-row');
+      r.appendChild(el('div', null, TYPE_LABEL[g] + 's — ' + x.mastered + '/' + x.total + ' mastered'));
       var meter = el('div', 'meter'), s1 = el('i', 'seen'), s2 = el('i', 'mast');
       s1.style.width = (x.seen / x.total * 100) + '%'; s2.style.width = (x.mastered / x.total * 100) + '%';
       meter.appendChild(s1); meter.appendChild(s2); r.appendChild(meter); v.appendChild(r);
@@ -256,19 +271,22 @@
     var q = $('q').value.trim().toLowerCase(), box = $('results'); box.textContent = '';
     if (q.length < 2) return;
     var shown = 0;
-    function card(title, sub, conj) {
-      var r = el('div', 'res'); if (conj) r.style.setProperty('--conj', 'var(--c' + conj + ')');
+    function edgeOf(d) { return d.type === 'verb' ? 'var(--c' + d.conjugation + ')' : d.type === 'adjective' ? 'var(--adj)' : 'var(--adv)'; }
+    function card(title, sub, edge) {
+      var r = el('div', 'res'); if (edge) r.style.setProperty('--conj', edge);
       r.appendChild(el('b', null, title)); r.appendChild(el('div', 'sub', sub)); box.appendChild(r); shown++;
     }
     forms.forEach(function (f) {
       if (shown < 40 && f.form.toLowerCase().indexOf(q) === 0) {
         var c = deck.filter(function (d) { return d.danish === f.verb; })[0];
-        card(f.form + ' → ' + f.verb, f.english + (c ? ' · ' + c.datid + ' / ' + c.perf : ''), c && c.conjugation);
+        card(f.form + ' → ' + f.verb, f.english + (c ? ' · ' + c.datid + ' / ' + c.perf : ''), c && edgeOf(c));
       }
     });
     deck.forEach(function (d) {
       if (shown < 40 && (d.danish.toLowerCase().indexOf(q) !== -1 || d.english.toLowerCase().indexOf(q) !== -1))
-        card(d.danish + ' — ' + d.english, 'IMP ' + d.imp + ' · NU ' + d.nu + ' · DATID ' + d.datid + ' · PERF ' + d.perf, d.conjugation);
+        card(d.danish + ' — ' + d.english,
+          d.type === 'verb' ? 'IMP ' + d.imp + ' · NU ' + d.nu + ' · DATID ' + d.datid + ' · PERF ' + d.perf
+                            : TYPE_LABEL[d.type], edgeOf(d));
     });
     if (!shown) box.appendChild(el('p', 'muted', 'No match.'));
   }
@@ -276,27 +294,35 @@
 
   /* ---------- settings ---------- */
   function initSettings() {
-    var s = state.settings, g = $('f-group');
-    g.textContent = '';
-    var o = el('option', null, 'All groups'); o.value = 'all'; g.appendChild(o);
-    var groups = []; deck.forEach(function (d) { if (groups.indexOf(d.group) < 0) groups.push(d.group); });
-    groups.forEach(function (n) { var op = el('option', null, n); op.value = n; g.appendChild(op); });
-    if (groups.indexOf(s.group) < 0) s.group = 'all';
-    g.value = s.group; $('f-conj').value = s.conj;
-    $('f-base').checked = s.baseOnly; $('f-reverse').checked = s.reverse; $('f-shuffle').checked = s.shuffle;
+    var s = state.settings;
+    // Progress files from the earlier verbs-only version carry a "group" setting; ignore it.
+    if (['all', 'verb', 'adjective', 'adverb'].indexOf(s.type) < 0) s.type = 'all';
+    delete s.group;
+    $('f-type').value = s.type; $('f-conj').value = s.conj;
+    $('f-base').checked = s.baseOnly;
+    delete s.coreOnly;
+    $('f-reverse').checked = s.reverse; $('f-shuffle').checked = s.shuffle;
+    updateRows();
+  }
+  // Show only the filters that apply to the chosen word type.
+  function updateRows() {
+    var verb = $('f-type').value === 'verb';
+    $('row-conj').hidden = $('row-base').hidden = !verb;
   }
   function onSettingChange() {
     var s = state.settings;
-    s.group = $('f-group').value; s.conj = $('f-conj').value;
-    s.baseOnly = $('f-base').checked; s.reverse = $('f-reverse').checked; s.shuffle = $('f-shuffle').checked;
-    save(); startSession();
+    s.type = $('f-type').value; s.conj = $('f-conj').value;
+    s.baseOnly = $('f-base').checked;
+    s.reverse = $('f-reverse').checked; s.shuffle = $('f-shuffle').checked;
+    updateRows(); save(); startSession();
   }
-  ['f-group', 'f-conj', 'f-base', 'f-reverse', 'f-shuffle'].forEach(function (id) { $(id).addEventListener('change', onSettingChange); });
+  ['f-type', 'f-conj', 'f-base', 'f-reverse', 'f-shuffle'].forEach(function (id) { $(id).addEventListener('change', onSettingChange); });
 
   function updateAbout() {
     var a = $('about'); if (!a) return;
     var v = !speechOK ? 'Speech: not supported on this device.' : daVoice ? 'Danish voice: ' + daVoice.name + '.' : 'Danish voice: none found (audio uses the default voice).';
-    a.textContent = deck.length + ' verbs · ' + forms.length + ' irregular forms · ' + v + (memoryOnly ? ' · Storage unavailable!' : '');
+    var cnt = {}; deck.forEach(function (d) { cnt[d.type] = (cnt[d.type] || 0) + 1; });
+    a.textContent = (cnt.verb || 0) + ' verbs · ' + (cnt.adjective || 0) + ' adjectives · ' + (cnt.adverb || 0) + ' adverbs · ' + forms.length + ' irregular verb forms · ' + v + (memoryOnly ? ' · Storage unavailable!' : '');
   }
 
   /* Export: share sheet on iOS (Save to Files / Drive), plain download elsewhere. */

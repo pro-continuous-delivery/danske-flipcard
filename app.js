@@ -81,19 +81,21 @@
     var rec = state.cards[c.id];
     var tagText = TYPE_LABEL[c.type] + (rec ? ' · box ' + rec.box : ' · new');
 
-    front.appendChild(s.reverse ? en : da);
-    front.appendChild(el('div', 'tag', tagText));
-
-    // Back: the answer, then the verb forms (adjectives and adverbs are just word + meaning)
-    back.appendChild(s.reverse ? da : en);
-    if (isVerb) {
-      var dl = el('dl', 'forms');
-      [['IMP', c.imp], ['NU', c.nu], ['DATID', c.datid], ['PERF', c.perf]].forEach(function (p) {
-        dl.appendChild(el('dt', null, p[0])); dl.appendChild(el('dd', null, p[1]));
-      });
-      back.appendChild(dl);
+    // Verb forms always sit with the Danish word (front normally, back in reverse mode), so you
+    // practise recognising the forms you actually meet in texts, not just the infinitive.
+    function withForms(side, danishSide) {
+      side.appendChild(danishSide ? da : en);
+      if (isVerb && danishSide) {
+        var dl = el('dl', 'forms');
+        [['IMP', c.imp], ['NU', c.nu], ['DATID', c.datid], ['PERF', c.perf]].forEach(function (p) {
+          dl.appendChild(el('dt', null, p[0])); dl.appendChild(el('dd', null, p[1]));
+        });
+        side.appendChild(dl);
+      }
+      side.appendChild(el('div', 'tag', tagText));
     }
-    back.appendChild(el('div', 'tag', tagText));
+    withForms(front, !s.reverse);
+    withForms(back, s.reverse);
     void card.offsetWidth; card.classList.remove('notrans');
     busy = false;
   }
